@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="交互式对照结直肠癌 CMS 转录组分型与 DNA 基因组分型，查阅富集关系与原始研究。">
+<title>结直肠癌 CMS 与基因组分型 · 交互对照</title><link rel="stylesheet" href="../assets/site.css">
+<style>
+.intro{max-width:45em}.atlas{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:22px 0 14px}.atlas section,.detail,.note{background:white;border:1px solid #dce8ed;border-radius:14px;padding:18px}.atlas h2{font-size:1.3rem}.atlas p{font-size:.9rem;margin-bottom:12px}.nodes{display:grid;gap:7px}.nodes.dna{grid-template-columns:1fr 1fr}.node{display:block;text-align:left;background:var(--bg,#eef6f7);border:1px solid transparent;border-left:4px solid var(--ink,#166575);color:#173647;border-radius:8px;padding:9px 12px;font:inherit;cursor:pointer;min-width:0}.node strong{color:var(--ink,#166575);margin-right:7px}.node small{display:block;color:#3c5867;line-height:1.35}.node .pct{float:right;font-size:.8rem;font-weight:700}.node .badge{display:none;font-weight:750;margin:.25em 0 0}.node.is-selected{box-shadow:0 0 0 2px var(--ink,#166575)}.node.is-related{border:1px dashed #14677a;border-left-width:4px}.node.is-selected .badge,.node.is-related .badge{display:block}.node:hover{filter:brightness(.97)}button:focus-visible{outline:3px solid #147477;outline-offset:3px}.reset{border:0;font:inherit;cursor:pointer;color:#145675}.soft{background:#f0f5f8}.detail{margin:14px 0 20px;border-left:4px solid #1a6e79}.detail h2{font-size:1.25rem}.detail p{margin:6px 0}.note{margin-bottom:14px}.note h2{font-size:1.17rem}.note p:last-child{margin-bottom:0}.refs{margin-bottom:0;padding-left:1.5em}.refs a{overflow-wrap:anywhere}.kicker{display:block;color:#38677a;font-size:.8rem;font-weight:750;letter-spacing:.06em}
+@media(max-width:670px){.atlas{grid-template-columns:1fr;gap:11px}.atlas section,.detail,.note{padding:15px}}@media(max-width:330px){.nodes.dna{grid-template-columns:1fr}.node .pct{float:none;display:block}}
+</style></head><body><header><nav><a href="../index.html">Research Track · 文献图谱</a> <span aria-hidden="true">/</span> <a href="./index.html">CMS 原图</a></nav></header>
+<main><span class="eyebrow">04 / 交互对照</span><h1>结直肠癌：CMS 与基因组分型</h1>
+<p class="intro">左侧是组织转录组的表达状态，右侧是 DNA 变异及染色体拷贝数特征。选择任一类型可查看定义和跨体系联系。高亮表示有文献支持的富集或特征关联，<strong>不代表一一对应</strong>。</p>
+<div class="buttons"><a class="btn" href="figure.png">查看原尺寸图</a><a class="btn" href="figure.png" download="crc-cms.png">下载 PNG</a><button class="btn reset" id="reset" type="button">清除选择</button></div>
+<div class="atlas">
+<section aria-labelledby="rna"><span class="kicker">01 / RNA</span><h2 id="rna">CMS 转录组分型</h2><p>Guinney 等：18 个数据集共 4,151 人；比例来自分型分析集 3,962 例。<a href="#ref1">[1]</a></p>
+<div class="nodes">
+<button class="node" type="button" data-node="cms1" aria-pressed="false" style="--ink:#086d63;--bg:#eaf6f1"><strong>CMS1</strong> MSI 免疫型 <span class="pct">14%</span><small>MSI-H、高突变负荷与免疫激活</small><small class="badge"></small></button>
+<button class="node" type="button" data-node="cms2" aria-pressed="false" style="--ink:#23598e;--bg:#edf4fc"><strong>CMS2</strong> 经典型 <span class="pct">37%</span><small>上皮程序、WNT/MYC 活化</small><small class="badge"></small></button>
+<button class="node" type="button" data-node="cms3" aria-pressed="false" style="--ink:#81520e;--bg:#fbf4e6"><strong>CMS3</strong> 代谢型 <span class="pct">13%</span><small>代谢程序增强与 KRAS 突变富集</small><small class="badge"></small></button>
+<button class="node" type="button" data-node="cms4" aria-pressed="false" style="--ink:#6c4087;--bg:#f5effa"><strong>CMS4</strong> 间质型 <span class="pct">23%</span><small>TGF-β、EMT、基质重塑</small><small class="badge"></small></button>
+<button class="node soft" type="button" data-node="mixed" aria-pressed="false"><strong>混合／未定型</strong> <span class="pct">13%</span><small>不是第五型</small><small class="badge"></small></button>
+</div></section>
+<section aria-labelledby="dna"><span class="kicker">02 / DNA</span><h2 id="dna">DNA 基因组分型</h2><p>Liu 等：921 例消化道腺癌比较研究，以下仅列结直肠癌相关类型；921 不是结直肠癌病例数。<a href="#ref3">[3]</a></p>
+<div class="nodes dna">
+<button class="node" type="button" data-node="msi" aria-pressed="false"><strong>MSI</strong><small>微卫星不稳定</small><small class="badge"></small></button>
+<button class="node" type="button" data-node="hm" aria-pressed="false"><strong>HM-SNV</strong><small>以单核苷酸变异为主的高突变型</small><small class="badge"></small></button>
+<button class="node" type="button" data-node="cin" aria-pressed="false"><strong>CIN</strong><small>染色体不稳定</small><small class="badge"></small></button>
+<button class="node" type="button" data-node="gs" aria-pressed="false"><strong>GS</strong><small>基因组稳定</small><small class="badge"></small></button>
+</div></section>
+</div>
+<div class="detail" id="detail" aria-live="polite" aria-atomic="true"><h2>如何读这张图？</h2><p>点击任一分型，或用 Tab 移到分型后按回车／空格。总体上，CMS1 富集 MSI，但也可覆盖 HM-SNV；CMS2 常有 CIN 特征；CMS3 中富集 GS，却不能等同。CMS4 的基质特征不定义某种 DNA 类型。</p></div>
+<noscript><p>当前浏览器未启用 JavaScript；可打开原尺寸图查看完整对照。</p></noscript>
+<section class="note"><h2>DNA 分类框架的演进</h2><p>TCGA 2012：276 例做多组学分析；224 例外显子组中约 16% 高突变、84% 非高突变。<a href="#ref2">[2]</a></p><p>Cornish 等 2024：对 2,023 例做全基因组测序；按 MSI、聚合酶校对相关（POL）、MSS 分组，并将未经治疗的原发 MSS 肿瘤进一步划分为 WGD-A、WGD-B、GS、LOH。不同研究的分类阈值与队列不可直接互换。<a href="#ref4">[4]</a></p></section>
+<section class="note"><h2>原始研究</h2><ol class="refs">
+<li id="ref1">Guinney et al. <i>Nature Medicine</i> (2015). <a href="https://doi.org/10.1038/nm.3967">10.1038/nm.3967</a></li>
+<li id="ref2">The Cancer Genome Atlas Network. <i>Nature</i> (2012). <a href="https://doi.org/10.1038/nature11252">10.1038/nature11252</a></li>
+<li id="ref3">Liu et al. <i>Cancer Cell</i> (2018), Fig. 2 and Fig. S2. <a href="https://doi.org/10.1016/j.ccell.2018.03.010">10.1016/j.ccell.2018.03.010</a></li>
+<li id="ref4">Cornish et al. <i>Nature</i> (2024). <a href="https://doi.org/10.1038/s41586-024-07747-9">10.1038/s41586-024-07747-9</a></li>
+<li id="ref5">Joanito et al. <i>Nature Genetics</i> (2022). <a href="https://doi.org/10.1038/s41588-022-01100-4">10.1038/s41588-022-01100-4</a></li>
+</ol></section></main><footer>用于科研阅读；不替代标准 MSI/MMR 检测或临床指南。</footer>
+<script>
+'use strict';
+const info={
+ cms1:['CMS1 · MSI 免疫型','常见高突变负荷和明显免疫细胞浸润，富集 MSI-H 与 BRAF 突变。Liu 的下消化道队列里，CMS1 不能区分 DNA 层的 MSI 与 HM-SNV。', ['msi','hm'],[1,3]],
+ cms2:['CMS2 · 经典型','典型上皮表达程序，WNT/MYC 活化，常见染色体不稳定及体细胞拷贝数改变。与 CIN 的连结表示特征相似，不代表每例 CMS2 都分到 CIN。', ['cin'],[1,3]],
+ cms3:['CMS3 · 代谢型','代谢表达程序增强，KRAS 突变富集，拷贝数改变相对较少，并非全部是 MSS。Liu 的下消化道队列发现 GS 在 CMS3 中富集，但 CMS 整体不足以可靠区分 CIN 与 GS。', ['gs'],[1,3]],
+ cms4:['CMS4 · 间质型','TGF-β、EMT、血管生成和基质重塑特征突出；含丰富基质／成纤维细胞信号。单细胞研究显示 CMS4 可包含 iCMS2 或 iCMS3 上皮。没有可据此指定的唯一 DNA 类型。', [],[1,5]],
+ mixed:['混合／未定型 · 不是第五型','Guinney 等分析中约 13% 呈混合特征或未能明确归类，不能据此推断 DNA 分型，原研究的比例也不能直接外推到其他队列。', [],[1]],
+ msi:['MSI · 微卫星不稳定','与错配修复缺陷及较多插入／缺失变异有关，部分病例伴 MLH1 甲基化沉默。MSI-H 在 CMS1 富集，但 CMS1 不是 MSI/MMR 检测。', ['cms1'],[1,3]],
+ hm:['HM-SNV · 以单核苷酸变异为主的高突变型','高突变以单核苷酸变异为主，部分与 POLE 校对缺陷有关；不是 POLE 突变的同义词。CMS1 不能把此类与 MSI 区分开。', ['cms1'],[3]],
+ cin:['CIN · 染色体不稳定','以非整倍体和较多体细胞拷贝数改变为特征。CMS2 常见 CIN 相关特征，但表达亚型不能用于判定每个病例的 DNA 类别。', ['cms2'],[1,3]],
+ gs:['GS · 基因组稳定','相对较少染色体拷贝数改变且并非高突变，但不代表没有驱动突变。Liu 队列中 GS 在 CMS3 中富集，并非二者等同。', ['cms3'],[3]]
+};
+const nodes=[...document.querySelectorAll('[data-node]')],detail=document.getElementById('detail'),intro=detail.innerHTML;
+let selected=null;
+function select(id){
+ selected=id;
+ const data=info[selected];
+ for(const el of nodes){
+  const active=el.dataset.node===selected,near=Boolean(data&&data[2].includes(el.dataset.node));
+  el.setAttribute('aria-pressed',String(active));el.classList.toggle('is-selected',active);el.classList.toggle('is-related',near);
+  el.querySelector('.badge').textContent=active?'已选择':near?'有文献联系':'';
+ }
+ if(!data){detail.innerHTML=intro;return;}
+ detail.innerHTML='<h2>'+data[0]+'</h2><p>'+data[1]+'</p><p>证据来源： '+data[3].map(n=>'<a href="#ref'+n+'" aria-label="原始研究 '+n+'">['+n+']</a>').join(' ')+'</p>';
+}
+for(const el of nodes)el.addEventListener('click',()=>{
+ select(selected===el.dataset.node?null:el.dataset.node);
+ if(selected&&window.matchMedia('(max-width:670px)').matches)
+  detail.scrollIntoView({block:'nearest'});
+});
+document.getElementById('reset').addEventListener('click',()=>select(null));
+</script></body></html>

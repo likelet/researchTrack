@@ -1,0 +1,54 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>原发性食管小细胞癌｜互动文献地图</title><link rel="stylesheet" href="../assets/site.css"><style>
+main{width:min(1480px,calc(100% - 36px))}.subnav a{margin-right:16px}.hero{margin-bottom:20px}.hero p{margin:0}.teamline,.context{background:#fff6e4;border:1px solid #ead7a7;padding:12px 16px;border-radius:9px;color:#66430e}.controls{display:flex;flex-wrap:wrap;align-items:end;gap:10px;margin:22px 0 10px}.controls label{display:grid;gap:3px;font-size:.9rem;font-weight:700}.controls input,.controls select,.controls button,dialog button{font:inherit;padding:7px 10px;border-radius:7px;border:1px solid #8ba4b1;background:#fff;color:#172f40}.controls input{width:min(300px,80vw)}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #147d73;outline-offset:2px}.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:.9rem;margin:0 0 15px}.legend span::before{content:"● ";color:var(--tone)}.timeline{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}.era{min-width:0}.era h2{border-bottom:2px solid #a7bbc9;padding-bottom:8px;font-size:1.22rem}.era p{font-size:.85rem}.era button{width:100%;background:var(--bg);color:#172f40;border:0;border-left:4px solid var(--tone);border-radius:7px;text-align:left;margin-bottom:9px;padding:9px 10px;line-height:1.35;overflow-wrap:anywhere}.era button:hover{text-decoration:underline}.era button>*{display:block}.era button strong{color:var(--tone);margin:2px 0;font-size:1rem}.era button small{font-size:.78rem}.era button.team{background:#fff3d7}.star{color:#815110}.notes{margin-top:22px;background:#fff;border:1px solid #dce8ed;padding:15px 20px;border-radius:10px}.notes p{margin-bottom:8px}.c0{--bg:#edf2f8;--tone:#455c78}.c1{--bg:#eaf6f3;--tone:#066b60}.c2{--bg:#eaf2fb;--tone:#255783}.c3{--bg:#f9efea;--tone:#8b4035}dialog{border:1px solid #d6e4eb;border-radius:15px;background:#fff;color:#172f40;width:min(670px,calc(100% - 24px));max-height:88vh;padding:20px;box-shadow:0 18px 45px #18324535}dialog::backdrop{background:#12243290}.dialog-top{display:flex;gap:14px;justify-content:space-between;align-items:start}dialog h2{margin:0}dialog dt{font-weight:750;margin-top:10px}dialog dd{margin:0;color:#365464}.empty{color:#526b78}.chip{display:inline-block;background:#f0f5f8;margin:9px 0 0;padding:3px 8px;border-radius:5px;font-size:.87rem}
+@media(max-width:990px){.timeline{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:630px){.timeline{grid-template-columns:1fr}.era h2{margin-top:14px}.controls label:first-child{width:100%}}
+</style></head><body><header><nav class="subnav"><a href="../index.html">Research Track · 文献图谱</a><a href="index.html">查看原图</a></nav></header><main>
+<section class="hero"><span class="eyebrow">研究时间轴 / 1952–2026</span><h1>原发性食管小细胞癌<br>核心文献地图</h1><p>SCCE / SCEC · 24 项核心资料（含 1 项共识）· 对应原图 2026 年 11 月 20 日版本</p></section>
+<p class="teamline"><b>★ 中山大学肿瘤防治中心（SYSUCC）团队：Feng Wang 或 Qi Zhao 署名（5 篇）</b><br>2014 临床病理与分期治疗 → 2018 基因组 → 2020 转录组与免疫表型 → 2025 单细胞与促血管生态位</p>
+<form class="controls" id="filter"><label>搜索作者、主题或 DOI<input type="search" id="q" placeholder="例如：Qi Zhao、PD-L1、放疗"></label><label>证据方向<select id="type"><option value="">全部方向</option></select></label><label>团队<select id="team"><option value="">全部团队</option><option value="yes">只看 SYSUCC 团队署名</option></select></label><button type="reset">清除筛选</button></form>
+<div class="legend" id="legend" aria-label="图例"></div><p id="count" aria-live="polite"></p><div id="timeline" class="timeline"></div>
+<section class="notes"><h2>共识、试验登记与阅读边界</h2><p><button class="btn" id="consensus" type="button">查看 2026 年多学科共识</button></p><p>前瞻性登记：<a href="https://clinicaltrials.gov/study/NCT05173246?tab=results">NCT05173246（一线 toripalimab + 化疗）</a>；<a href="https://clinicaltrials.gov/study/NCT03811379">NCT03811379（化疗失败后 toripalimab）</a>。注册不等于疗效结果。</p><p>主要范围为原发性食管小细胞癌；跨部位神经内分泌癌单独标明。2018 基因组与 2020 转录组研究并非完全独立；两篇 2014 研究队列可能部分重叠。组学关联、回顾性比较和个案均不同于随机疗效验证。OS 为总生存期，PFS 为无进展生存期；时间栏宽不代表时间跨度。</p></section></main>
+<dialog id="detail" aria-labelledby="dtitle"><div class="dialog-top"><h2 id="dtitle"></h2><button type="button" id="close">关闭</button></div><div class="chip" id="dtag"></div><dl><dt>研究团队／设计</dt><dd id="dteam"></dd><dt>主要发现</dt><dd id="dfind"></dd><dt>局限与解读</dt><dd id="dlimit"></dd></dl><a id="doi" target="_blank" rel="noopener noreferrer">通过 DOI 查看原文（新窗口）</a></dialog>
+<footer>整理自公开论文和注册记录。用于科研阅读，不替代临床指南或标准检测。</footer>
+<script>
+const labels=['病理与共识','分型与微环境','局部与综合治疗','治疗探索'];
+const eras=[[1952,2018,'疾病识别 · 早期临床与基因组'],[2020,2021,'转录组 · 分型与免疫表型'],[2024,2024,'多中心比较 · 临床转化起步'],[2025,2025,'单细胞微环境 · 配对探索'],[2026,2026,'分期治疗证据 · 新靶点线索']];
+const src=`1952|0|F. McKeown|J Pathol Bacteriol|10.1002/path.1700640420|0|早期病理报告|报告 2 例食管燕麦细胞癌尸检。|历史性病例描述，不提供现代诊断或治疗比较。
+2014|0|Wei-Wei Chen|BMC Cancer|10.1186/1471-2407-14-222|1|SYSUCC；Feng Wang、Rui-Hua Xu 等；44 例病理队列|考察 LGR5 表达及其与预后的关系。|回顾性病理队列；关联不等于预测疗效。
+2014|2|Wei-Wei Chen|Ann Thorac Surg|10.1016/j.athoracsur.2014.02.037|1|SYSUCC 牵头；Feng Wang、Rui-Hua Xu 等；三中心回顾|按病期比较综合治疗与预后。|非随机治疗分配；与同期病理队列可能部分重叠。
+2018|1|Feng Wang|Cell Research|10.1038/s41422-018-0039-1|1|SYSUCC 等；Feng Wang、Qi Zhao 等共同第一作者；55 例 WES|描绘基因组突变景观，发现 TP53、RB1、NOTCH 通路相关改变。|发现性基因组研究；不检验治疗获益。
+2018|2|Vivek Verma|Cancer Med|10.1002/cam4.1712|0|Allegheny、Nebraska、MD Anderson；NCDB 323 例非转移病例|比较不同综合治疗方式和生存。|登记库回顾性比较，残余混杂及适应证偏倚。
+2020|1|Qi Zhao|Clin Transl Immunol|10.1002/cti2.1173|1|SYSUCC；Qi Zhao 第一作者，Feng Wang 等；bulk RNA-seq 与 62 例 IHC|检测到免疫抑制特征及患者间异质性。|与 2018 年基因组研究部分重叠；不是免疫用药应答测试。
+2020|1|Xiao Wu|J Immunol Res|10.1155/2020/8884683|0|汕头大学医学院等；Hao Zhang；81 例 IHC|PD-L1 多见于间质，研究其与预后的关联。|组织预后关联不能作为免疫治疗预测指标。
+2021|1|Zhengbo Song|Cell Death Dis|10.1038/s41419-021-03754-0|0|浙江省肿瘤医院等；Ming Chen、Gang Chen；48 例 SCCE、64 例 SCLC|比较食管与肺原发小细胞癌，观察到克隆架构差异。|对照目的在于肿瘤生物学比较，肺癌结果不可直接外推治疗。
+2021|1|Renda Li|Nat Commun|10.1038/s41467-021-24043-6|0|国家癌症中心；Susheng Shi、Yibo Gao、Jie He；46 例多组学|45/46 例 RB1 受损；识别 A/N 型。|分型是研究结果，尚不等于临床伴随诊断。
+2024|2|J. Zhu|Int J Surg|10.1097/JS9.0000000000000912|0|ChiSCEC；Qifeng Wang、Wei Huang；局限期 458 例|化疗加局部治疗与较好的结局相关。|非随机回顾性比较，不能确定治疗方式间的因果效应。
+2024|1|Zhanyu Wang|Cancer Cell|10.1016/j.ccell.2024.05.002|0|国家癌症中心；Nan Sun、Jie He；跨部位神经内分泌癌|提出跨原发部位 NEC 分型框架。|跨部位研究，非食管小细胞癌专属验证。
+2024|1|Chaoqi Zhang|Int J Surg|10.1097/JS9.0000000000000064|0|国家癌症中心；147 例切除组织|PD-L1/CD8 特征与预后相关。|未检验指标能否预测治疗获益。
+2024|3|Junhan Wu|Hum Vaccin Immunother|10.1080/21645515.2024.2370085|0|广东省人民医院等，Guibin Qiao、Yong Tang；3 例|报道化疗联合免疫治疗病例。|病例系列，不可估算疗效或比较治疗。
+2025|3|Qinkai Zhang|Front Genet|10.3389/fgene.2024.1477705|0|广东省人民医院等，Dongyang Yang、Jie Li；1 例治疗前后配对|观察到治疗相关的细胞状态变化。|单病例、生成假设，不能泛化。
+2025|2|Lei Xu|Ann Surg Oncol|10.1245/s10434-024-16532-x|0|国家癌症中心等；Yin Li、Rui-Xiang Zhang；7 中心、352 例手术患者|比较围术期治疗策略。|限于手术队列，回顾性研究存在选择偏倚。
+2025|1|Hao-Xiang Wu|Molecular Cancer|10.1186/s12943-025-02335-5|1|SYSUCC；Qi Zhao、Feng Wang、Rui-Hua Xu 等；10 例单细胞 RNA 测序|描述活化 Treg 及促血管生成相关细胞生态位。|样本量小；机制线索尚不能用作临床预测指标。
+2025|3|Bing Wang|Front Immunol|10.3389/fimmu.2025.1634834|0|山东双中心；Bin Feng、Wang Jing；83 例回顾性比较|ICI 有 OS 关联信号；PFS 差异未达显著。|非随机；OS 信号需要前瞻性确认。
+2025|1|Xiaolei Yin|Front Immunol|10.3389/fimmu.2025.1672587|0|河北医大四院；Fei Yin；3 例 FFPE 单核测序|描述免疫低浸润与癌相关成纤维细胞重塑。|样本量小及 FFPE 测序局限；不检验疗效。
+2026|2|L. Peng|Clin Oncol|10.1016/j.clon.2026.104092|0|ChiSCEC；Qifeng Wang、Wei Huang、Wencheng Zhang；广泛期 191 例|放疗组局部控制改善；OS 差异未达显著。|回顾性比较；不能将局控获益等同于生存获益。
+2026|3|B. Köylü|Immunotherapy|10.1080/1750743X.2026.2652156|0|Koç University；Fatih Selçukbiricik 等；个案|DLL3 双抗 tarlatamab 治疗后出现影像学缓解。|一例观察，不能证明一般疗效。
+2026|2|Xiaolei Yin|The Oncologist|10.1093/oncolo/oyag115|0|河北医大四院；Fei Yin；中国队列与 SEER，491 例回顾|在两个现实世界来源比较多模式治疗。|临床分期、策略和数据完整性可能不同。
+2026|3|Di Liu|BMC Cancer|10.1186/s12885-026-16189-7|0|复旦大学附属肿瘤医院；Di Liu、Yiliang Zhang；广泛期 112 例回顾|观察到 ICI 治疗与 OS 的关联信号。|单中心非随机，不能确定因果。
+2026|2|Wenpeng Jiao|Dis Esophagus|10.1093/dote/doag121|0|河北医大四院／Kanazawa Medical University；127 例切除患者|未证实术后放疗带来 OS 获益。|回顾性手术队列；未证实并不等于证明无效。
+2026|0|多学科专家组|中华肿瘤杂志|10.3760/cma.j.cn112152-20251114-00570|0|2026 年食管小细胞癌多学科诊治专家共识|按局限期与广泛期分层讨论诊治。|专家共识并非随机试验；免疫治疗仍缺乏高等级证据。`;
+const papers=src.split('\n').map((line,id)=>{const [year,type,author,journal,doi,team,group,find,limit]=line.split('|');return {id,year:+year,type:+type,author,journal,doi,team:team==='1',group,find,limit}});
+const get=id=>document.getElementById(id), make=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt)e.textContent=txt;return e};
+labels.forEach((t,i)=>{const o=make('option','',t);o.value=i;get('type').append(o);get('legend').append(make('span','c'+i,t))});
+let opener;
+function show(p,button){opener=button;get('dtitle').textContent=p.author+' · '+p.journal;get('dtag').textContent=p.year+' · '+labels[p.type]+(p.team?' · ★ SYSUCC 团队署名':'');get('dteam').textContent=p.group;get('dfind').textContent=p.find;get('dlimit').textContent=p.limit;get('doi').href='https://doi.org/'+p.doi;get('detail').showModal();get('close').focus()}
+get('close').onclick=()=>get('detail').close();
+get('detail').addEventListener('close',()=>opener?.focus());
+get('consensus').onclick=e=>show(papers.at(-1),e.currentTarget);
+function render(){const q=get('q').value.trim().toLowerCase(), ty=get('type').value, only=get('team').value==='yes';
+ const filtered=papers.filter(p=>(ty===''||p.type===+ty)&&(!only||p.team)&&(!q||Object.values(p).join(' ').toLowerCase().includes(q)));
+ const main=filtered.filter(p=>p.id!==papers.length-1);get('count').textContent='显示 '+filtered.length+' / '+papers.length+' 项'+(filtered.some(p=>p.id===papers.length-1)?'（共识在下方单列）':'');get('consensus').hidden=!filtered.some(p=>p.id===papers.length-1);
+ const grid=get('timeline');grid.replaceChildren();for(const [a,b,sub] of eras){const box=make('section','era');box.append(make('h2','',a===b?String(a):a+'–'+b),make('p','',sub));const pp=main.filter(p=>p.year>=a&&p.year<=b);if(!pp.length)box.append(make('p','empty','无符合条件的研究'));for(const p of pp){const n=make('button','c'+p.type+(p.team?' team':''));n.type='button';n.setAttribute('aria-haspopup','dialog');n.append(make('small','',p.year+' · '+p.journal),make('strong','',p.author+(p.team?' ★':'')),make('span','',p.find));n.onclick=()=>show(p,n);box.append(n)}grid.append(box)}}
+get('filter').addEventListener('submit',e=>e.preventDefault());
+get('filter').addEventListener('input',render);
+get('filter').addEventListener('reset',()=>setTimeout(render,0));render();
+</script></body></html>
