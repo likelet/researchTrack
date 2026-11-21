@@ -17,7 +17,10 @@ window.ESOPHAGEAL_STUDIES = [
       "调节性T细胞",
       "癌相关成纤维细胞",
       "树突状细胞"
-    ]
+    ],
+    "shortAuthor": "Wayne Croft",
+    "shortJournal": "Mol Cancer",
+    "summary": "腺癌化疗横断面对照：T 细胞活化与耗竭并存。"
   },
   {
     "year": 2022,
@@ -36,7 +39,11 @@ window.ESOPHAGEAL_STUDIES = [
       "CD8⁺ T细胞",
       "树突状细胞",
       "巨噬细胞"
-    ]
+    ],
+    "shortAuthor": "Jing Wen",
+    "shortJournal": "eBioMedicine",
+    "summary": "放化疗后 CD8⁺ T 浸润增加，伴耗竭和髓系重塑。",
+    "sysucc": true
   },
   {
     "year": 2023,
@@ -57,7 +64,10 @@ window.ESOPHAGEAL_STUDIES = [
       "调节性T细胞",
       "树突状细胞",
       "巨噬细胞"
-    ]
+    ],
+    "shortAuthor": "Sho Okuda",
+    "shortJournal": "iScience",
+    "summary": "化疗组 CD8⁺ T 记忆信号较强、耗竭较低。"
   },
   {
     "year": 2024,
@@ -76,7 +86,10 @@ window.ESOPHAGEAL_STUDIES = [
       "CD8⁺ T细胞",
       "NK细胞",
       "调节性T细胞"
-    ]
+    ],
+    "shortAuthor": "Gang Ji",
+    "shortJournal": "Genome Med",
+    "summary": "pCR 组治疗前 CD8⁺ T／NK 的 IFNγ 程序较强。"
   },
   {
     "year": 2024,
@@ -91,7 +104,10 @@ window.ESOPHAGEAL_STUDIES = [
     "design": "开放随机Ⅲ期，391例可切除局部晚期胸段ESCC，1:1:1分为卡瑞利珠单抗＋白蛋白紫杉醇/顺铂（132）、卡瑞利珠单抗＋紫杉醇/顺铂（130）、紫杉醇/顺铂（129）；免疫组术后继续卡瑞利珠单抗。",
     "finding": "双主要终点为病理完全缓解（pCR）及无事件生存（EFS）。该篇报告ITT pCR 28.0%、15.4%、4.7%；两免疫组各对照比较均显著，EFS在该报告中未成熟。",
     "limit": "pCR不等于已证实EFS或OS获益；没有新辅助放化疗对照；含白蛋白紫杉醇组与对照同时改变两项干预。PD-L1亚组为事后探索。",
-    "cells": []
+    "cells": [],
+    "shortAuthor": "Jianjun Qin",
+    "shortJournal": "Nat Med",
+    "summary": "ESCORT-NEO：三组 pCR 为 28.0%、15.4%、4.7%。"
   },
   {
     "year": 2024,
@@ -106,7 +122,10 @@ window.ESOPHAGEAL_STUDIES = [
     "design": "日本多中心开放随机Ⅲ期，601例局部晚期可切除食管鳞癌；新辅助CF、DCF、CF加放疗，然后手术。",
     "finding": "主要终点是总生存。三组3年OS分别62.6%、72.1%、68.3%；DCF较CF有OS获益，CF加放疗较CF未达到统计学显著。",
     "limit": "没有免疫治疗，是解读ESCC新辅助试验的非ICI对照基准；不能拿不同试验的pCR作疗效排名。",
-    "cells": []
+    "cells": [],
+    "shortAuthor": "Ken Kato",
+    "shortJournal": "Lancet",
+    "summary": "JCOG1109：三药化疗较双药提高总生存。"
   },
   {
     "year": 2024,
@@ -126,7 +145,10 @@ window.ESOPHAGEAL_STUDIES = [
       "CD8⁺ T细胞",
       "B细胞",
       "巨噬细胞"
-    ]
+    ],
+    "shortAuthor": "Chao Wu",
+    "shortJournal": "Oncogene",
+    "summary": "TLS 内 CD8⁺ T／B 细胞空间组织与病理应答相关。"
   },
   {
     "year": 2024,
@@ -146,7 +168,10 @@ window.ESOPHAGEAL_STUDIES = [
       "调节性T细胞",
       "B细胞",
       "三级淋巴结构"
-    ]
+    ],
+    "shortAuthor": "Zhenlin Yang",
+    "shortJournal": "Nat Commun",
+    "summary": "基线 CXCL13⁺ CD8⁺ T 与应答相关；治疗后须区分耗竭状态。"
   },
   {
     "year": 2025,
@@ -161,7 +186,10 @@ window.ESOPHAGEAL_STUDIES = [
     "design": "五中心双盲随机Ⅱ期，90例胸段Ⅱ–Ⅲ期ESCC，纳武利尤单抗＋紫杉醇/顺铂60例，对照安慰剂＋同化疗30例；非pCR患者术后可接受纳武利尤单抗。",
     "finding": "主要终点ITT pCR未达显著：9/60（15.0%）vs 4/30（13.3%），P＝0.832；2年EFS 63.11% vs 60.47%，HR 0.97（95% CI 0.49–1.92）。探索性ctDNA清除89% vs 62.5%，P＝0.01。",
     "limit": "样本量小，生存CI宽且非pCR者可接受相同术后免疫；ctDNA是探索指标，不能用其差异替代阴性的临床主要终点。",
-    "cells": []
+    "cells": [],
+    "shortAuthor": "Heng Jiao",
+    "shortJournal": "Mol Cancer",
+    "summary": "纳武利尤单抗联合化疗未显著提高 pCR（15.0% 对 13.3%）。"
   },
   {
     "year": 2025,
@@ -176,7 +204,10 @@ window.ESOPHAGEAL_STUDIES = [
     "design": "preSINO前瞻性诊断队列242例中132例有合格配对组织/血液进入ctDNA分析，共489份血样；新辅助放化疗、临床复评、手术病理验证和术后随访。",
     "finding": "将个体化肿瘤知情ctDNA加入常规复评，非pCR检出敏感度从78.4%–80.7%提高到92.0%–93.2%；放化疗后/术后MRD阳性与较差生存相关。",
     "limit": "并非新辅助免疫化疗队列；辅助免疫在MRD分层中的获益为非随机探索结果，不可据此漏做手术或决定不给药。",
-    "cells": []
+    "cells": [],
+    "shortAuthor": "Zhichao Liu",
+    "shortJournal": "Cell Rep Med",
+    "summary": "ctDNA 加入常规复评，提高非 pCR 检出敏感度。"
   },
   {
     "year": 2026,
@@ -191,7 +222,10 @@ window.ESOPHAGEAL_STUDIES = [
     "design": "开放随机Ⅱ期，70例可切除局部晚期ESCC；均第1天紫杉醇/顺铂，特瑞普利单抗随机为第3天（34例）或同日（36例），54例手术。",
     "finding": "主要pCR终点无显著差异：手术患者5/28 vs 7/26（P＝0.636），ITT 5/34 vs 7/36（P＝0.754）；未显示DFS/OS优越性。",
     "limit": "小样本，比较的是同一周期错峰而非ICI与无ICI；探索性毒性差异不足以确定更安全的时序。",
-    "cells": []
+    "cells": [],
+    "shortAuthor": "Yan Zheng",
+    "shortJournal": "Front Immunol",
+    "summary": "同日与错峰给免疫治疗，pCR 无显著差异。"
   },
   {
     "year": 2026,
@@ -211,7 +245,10 @@ window.ESOPHAGEAL_STUDIES = [
       "癌相关成纤维细胞",
       "CD8⁺ T细胞",
       "恶性上皮细胞"
-    ]
+    ],
+    "shortAuthor": "Zhongjian Yu",
+    "shortJournal": "J Immunother Cancer",
+    "summary": "血管、成纤维细胞与富胶原生态位关联耐药。"
   },
   {
     "year": 2026,
@@ -231,7 +268,10 @@ window.ESOPHAGEAL_STUDIES = [
       "调节性T细胞",
       "癌相关成纤维细胞",
       "血管内皮细胞"
-    ]
+    ],
+    "shortAuthor": "Yahui Zhao",
+    "shortJournal": "Nat Commun",
+    "summary": "应答组织富集高杀伤 CX3CR1⁺ CD8⁺ 效应 T 细胞。"
   },
   {
     "year": 2026,
@@ -252,7 +292,10 @@ window.ESOPHAGEAL_STUDIES = [
       "B细胞",
       "巨噬细胞",
       "恶性上皮细胞"
-    ]
+    ],
+    "shortAuthor": "Si Li",
+    "shortJournal": "Gut",
+    "summary": "PD-L1 阻断应答关联 T／B 细胞及巨噬细胞协同程序。"
   },
   {
     "year": 2026,
@@ -272,7 +315,11 @@ window.ESOPHAGEAL_STUDIES = [
       "癌相关成纤维细胞",
       "B细胞",
       "三级淋巴结构"
-    ]
+    ],
+    "shortAuthor": "Zihang Mai",
+    "shortJournal": "Drug Resist Updat",
+    "summary": "Th17–CAF–B 细胞轴关联 TLS 新生；有功能实验支持。",
+    "sysucc": true
   },
   {
     "year": 2026,
@@ -289,6 +336,9 @@ window.ESOPHAGEAL_STUDIES = [
     "limit": "跨治疗组分子数据整合，不等同于随机头对头验证；细胞状态差异不能直接当作治疗优劣或治疗选择依据。",
     "cells": [
       "CD8⁺ T细胞"
-    ]
+    ],
+    "shortAuthor": "Xin-Yun Song",
+    "shortJournal": "Cell Rep Med",
+    "summary": "免疫化疗与放化疗的 CD8⁺ T 克隆变化模式不同。"
   }
 ];

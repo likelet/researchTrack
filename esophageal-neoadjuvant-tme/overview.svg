@@ -1,13 +1,185 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
-<title id="title">食管癌新辅助治疗免疫微环境转化研究路线</title><desc id="desc">基线活检、治疗后组织与临床验证三层证据。前后变化不等于治疗预测。</desc>
-<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#7598ad"/></marker></defs>
-<rect width="1000" height="320" rx="24" fill="#f3f9fc"/>
-<g font-family="system-ui, Microsoft YaHei, sans-serif">
-<text x="30" y="41" fill="#205a70" font-size="19" font-weight="700" letter-spacing="2">TRANSLATIONAL ATLAS / ESOPHAGEAL CANCER</text>
-<g fill="white" stroke="#c9e1ea"><rect x="30" y="67" width="278" height="173" rx="16"/><rect x="361" y="67" width="278" height="173" rx="16"/><rect x="692" y="67" width="278" height="173" rx="16"/></g>
-<path d="M316 149h37m294 0h37" stroke="#7598ad" stroke-width="3" marker-end="url(#arr)"/>
-<g font-size="18" font-weight="700"><text x="52" y="105" fill="#13796b">01 ／ 基线活检</text><text x="383" y="105" fill="#27689a">02 ／ 治疗后组织</text><text x="714" y="105" fill="#865926">03 ／ 临床验证</text></g>
-<g fill="#183949" font-size="24" font-weight="700"><text x="52" y="147">初始免疫状态</text><text x="383" y="147">细胞与空间重塑</text><text x="714" y="147">病理与长期结局</text></g>
-<g fill="#4a6472" font-size="18"><text x="52" y="183">谱系、克隆、空间邻域</text><text x="383" y="183">配对单细胞、空间、多重染色</text><text x="714" y="183">pCR、EFS、随机治疗比较</text></g>
-<rect x="30" y="254" width="940" height="47" rx="11" fill="#e1f3ee"/>
-<text x="48" y="284" fill="#23574d" font-size="20" font-weight="650">治疗后应答相关 ≠ 治疗前预测 ≠ 治疗差异获益</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="2220" height="1010" viewBox="0 0 2220 1010" role="img" aria-labelledby="overview-title overview-desc">
+<title id="overview-title">食管癌新辅助治疗免疫微环境｜16 项原始研究时间轴</title><desc id="overview-desc">按首次在线发表年份分五栏，涵盖不晚于2022年、2023、2024、2025及2026年。包括食管鳞癌和独立标示的食管腺癌研究。每张卡提供作者、期刊、摘要和 DOI。</desc><style>text{font-family:"Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif} .strong{font-weight:700}</style>
+<rect x="0" y="0" width="2220" height="1010" rx="0" fill="#ffffff"/>
+<rect x="42" y="26" width="51" height="5" rx="3" fill="#09796c"/>
+<text x="42" y="55" font-size="20" fill="#096c62" class="strong" text-anchor="start">研究时间轴 / 2022–2026</text>
+<text x="42" y="112" font-size="55" fill="#172a40" class="strong" text-anchor="start">食管癌新辅助治疗｜免疫微环境核心文献地图</text>
+<text x="42" y="151" font-size="22" fill="#4a6073" class="" text-anchor="start">16 项原始研究 · 食管鳞癌与食管腺癌分别标示 · 按首次在线日期分栏</text>
+<rect x="1250" y="130" width="13" height="13" rx="4" fill="#096c62"/>
+<text x="1271" y="143" font-size="18" fill="#4a6073" class="" text-anchor="start">配对动态</text>
+<rect x="1466" y="130" width="13" height="13" rx="4" fill="#245d92"/>
+<text x="1487" y="143" font-size="18" fill="#4a6073" class="" text-anchor="start">空间机制</text>
+<rect x="1682" y="130" width="13" height="13" rx="4" fill="#89552b"/>
+<text x="1703" y="143" font-size="18" fill="#4a6073" class="" text-anchor="start">转化标志物</text>
+<rect x="1898" y="130" width="13" height="13" rx="4" fill="#445c75"/>
+<text x="1919" y="143" font-size="18" fill="#4a6073" class="" text-anchor="start">随机临床证据</text>
+<rect x="42" y="169" width="2136" height="45" rx="8" fill="#fcf5e4"/>
+<text x="56" y="198" font-size="21" fill="#835217" class="strong" text-anchor="start">阅读主线</text>
+<text x="185" y="198" font-size="20" fill="#172a40" class="strong" text-anchor="start">单药或放化疗基线  →  新辅助联合治疗配对  →  随机临床证据与空间机制</text>
+<path d="M49,255 L2166,255" fill="none" stroke="#a3b7c8" stroke-width="2"/>
+<path fill="#728fa4" d="M2161,248 L2175,255 L2161,262 Z"/>
+<text x="42" y="245" font-size="27" fill="#172a40" class="strong" text-anchor="start">≤2022</text>
+<circle cx="49" cy="255" r="7" fill="#2b5a83"/>
+<g><title>The single cell transcriptional landscape of esophageal adenocarcinoma and its modulation by neoadjuvant chemotherapy — Wayne Croft et al.，Molecular Cancer，2022-10-17，腺癌。腺癌化疗横断面对照：T 细胞活化与耗竭并存。。DOI 10.1186/s12943-022-01666-x</title>
+<rect x="42" y="290" width="414" height="99" rx="8" fill="#faf0e4"/>
+<rect x="42" y="290" width="4" height="99" rx="2" fill="#89552b"/>
+<text x="54" y="313" font-size="21" fill="#89552b" class="strong" text-anchor="start">Wayne Croft</text>
+<text x="445" y="313" font-size="16" fill="#4a6073" class="strong" text-anchor="end">10-17</text>
+<text x="54" y="333" font-size="17" fill="#4a6073" class="" text-anchor="start">Mol Cancer · 腺癌</text>
+<text x="54" y="353" font-size="18" fill="#172a40" class="" text-anchor="start">腺癌化疗横断面对照：T 细胞活化与耗竭并存。</text>
+<text x="54" y="384" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1186/s12943-022-01666-x</text>
+</g>
+<g><title>Impacts of neoadjuvant chemoradiotherapy on the immune landscape of esophageal squamous cell carcinoma — Jing Wen 等，eBioMedicine，2022-11-23，鳞癌。放化疗后 CD8⁺ T 浸润增加，伴耗竭和髓系重塑。。DOI 10.1016/j.ebiom.2022.104371</title>
+<rect x="42" y="396" width="414" height="99" rx="8" fill="#fcf4df"/>
+<rect x="42" y="396" width="4" height="99" rx="2" fill="#096c62"/>
+<text x="54" y="419" font-size="21" fill="#825014" class="strong" text-anchor="start">Jing Wen ★</text>
+<text x="445" y="419" font-size="16" fill="#4a6073" class="strong" text-anchor="end">11-23</text>
+<text x="54" y="439" font-size="17" fill="#4a6073" class="" text-anchor="start">eBioMedicine · 鳞癌</text>
+<text x="54" y="459" font-size="18" fill="#172a40" class="" text-anchor="start">放化疗后 CD8⁺ T 浸润增加，伴耗竭和髓系重塑。</text>
+<text x="54" y="490" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1016/j.ebiom.2022.104371</text>
+</g>
+<text x="471" y="245" font-size="27" fill="#172a40" class="strong" text-anchor="start">2023</text>
+<circle cx="478" cy="255" r="7" fill="#2b5a83"/>
+<g><title>Neoadjuvant chemotherapy enhances anti-tumor immune response of tumor microenvironment in human esophageal squamous cell carcinoma — Sho Okuda et al.，iScience，2023-03-21，鳞癌。化疗组 CD8⁺ T 记忆信号较强、耗竭较低。。DOI 10.1016/j.isci.2023.106480</title>
+<rect x="471" y="290" width="414" height="99" rx="8" fill="#faf0e4"/>
+<rect x="471" y="290" width="4" height="99" rx="2" fill="#89552b"/>
+<text x="483" y="313" font-size="21" fill="#89552b" class="strong" text-anchor="start">Sho Okuda</text>
+<text x="874" y="313" font-size="16" fill="#4a6073" class="strong" text-anchor="end">03-21</text>
+<text x="483" y="333" font-size="17" fill="#4a6073" class="" text-anchor="start">iScience · 鳞癌</text>
+<text x="483" y="353" font-size="18" fill="#172a40" class="" text-anchor="start">化疗组 CD8⁺ T 记忆信号较强、耗竭较低。</text>
+<text x="483" y="384" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1016/j.isci.2023.106480</text>
+</g>
+<text x="900" y="245" font-size="27" fill="#172a40" class="strong" text-anchor="start">2024</text>
+<circle cx="907" cy="255" r="7" fill="#2b5a83"/>
+<g><title>Single-cell profiling of response to neoadjuvant chemo-immunotherapy in surgically resectable esophageal squamous cell carcinoma — Gang Ji、Qi Yang（共同一作），Genome Medicine，2024-04-02，鳞癌。pCR 组治疗前 CD8⁺ T／NK 的 IFNγ 程序较强。。DOI 10.1186/s13073-024-01320-9</title>
+<rect x="900" y="290" width="414" height="99" rx="8" fill="#e8f5f1"/>
+<rect x="900" y="290" width="4" height="99" rx="2" fill="#096c62"/>
+<text x="912" y="313" font-size="21" fill="#096c62" class="strong" text-anchor="start">Gang Ji</text>
+<text x="1303" y="313" font-size="16" fill="#4a6073" class="strong" text-anchor="end">04-02</text>
+<text x="912" y="333" font-size="17" fill="#4a6073" class="" text-anchor="start">Genome Med · 鳞癌</text>
+<text x="912" y="353" font-size="18" fill="#172a40" class="" text-anchor="start">pCR 组治疗前 CD8⁺ T／NK 的 IFNγ 程序较强。</text>
+<text x="912" y="384" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1186/s13073-024-01320-9</text>
+</g>
+<g><title>Neoadjuvant chemotherapy with or without camrelizumab in resectable esophageal squamous cell carcinoma: the randomized phase 3 ESCORT-NEO/NCCES01 trial — Jianjun Qin 等，Nature Medicine，2024-07-02，鳞癌。ESCORT-NEO：三组 pCR 为 28.0%、15.4%、4.7%。。DOI 10.1038/s41591-024-03064-w</title>
+<rect x="900" y="396" width="414" height="99" rx="8" fill="#edf2f7"/>
+<rect x="900" y="396" width="4" height="99" rx="2" fill="#445c75"/>
+<text x="912" y="419" font-size="21" fill="#445c75" class="strong" text-anchor="start">Jianjun Qin</text>
+<text x="1303" y="419" font-size="16" fill="#4a6073" class="strong" text-anchor="end">07-02</text>
+<text x="912" y="439" font-size="17" fill="#4a6073" class="" text-anchor="start">Nat Med · 鳞癌</text>
+<text x="912" y="459" font-size="18" fill="#172a40" class="" text-anchor="start">ESCORT-NEO：三组 pCR 为 28.0%、15.4%、</text>
+<text x="912" y="477" font-size="18" fill="#172a40" class="" text-anchor="start">4.7%。</text>
+<text x="912" y="490" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1038/s41591-024-03064-w</text>
+</g>
+<g><title>Doublet chemotherapy, triplet chemotherapy, or doublet chemotherapy combined with radiotherapy as neoadjuvant treatment for locally advanced oesophageal cancer (JCOG1109 NExT): a randomised, controlled, open-label, phase 3 trial — Ken Kato 等，The Lancet，2024-07-06，鳞癌。JCOG1109：三药化疗较双药提高总生存。。DOI 10.1016/S0140-6736(24)00745-1</title>
+<rect x="900" y="502" width="414" height="99" rx="8" fill="#edf2f7"/>
+<rect x="900" y="502" width="4" height="99" rx="2" fill="#445c75"/>
+<text x="912" y="525" font-size="21" fill="#445c75" class="strong" text-anchor="start">Ken Kato</text>
+<text x="1303" y="525" font-size="16" fill="#4a6073" class="strong" text-anchor="end">07-06</text>
+<text x="912" y="545" font-size="17" fill="#4a6073" class="" text-anchor="start">Lancet · 鳞癌</text>
+<text x="912" y="565" font-size="18" fill="#172a40" class="" text-anchor="start">JCOG1109：三药化疗较双药提高总生存。</text>
+<text x="912" y="596" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1016/S0140-6736(24)00745-1</text>
+</g>
+<g><title>Spatial proteomic profiling elucidates immune determinants of neoadjuvant chemo-immunotherapy in esophageal squamous cell carcinoma — Chao Wu、Guoqing Zhang、Lin Wang、Jinlong Hu（共同一作），Oncogene，2024-08-09，鳞癌。TLS 内 CD8⁺ T／B 细胞空间组织与病理应答相关。。DOI 10.1038/s41388-024-03123-z</title>
+<rect x="900" y="608" width="414" height="99" rx="8" fill="#eaf2fb"/>
+<rect x="900" y="608" width="4" height="99" rx="2" fill="#245d92"/>
+<text x="912" y="631" font-size="21" fill="#245d92" class="strong" text-anchor="start">Chao Wu</text>
+<text x="1303" y="631" font-size="16" fill="#4a6073" class="strong" text-anchor="end">08-09</text>
+<text x="912" y="651" font-size="17" fill="#4a6073" class="" text-anchor="start">Oncogene · 鳞癌</text>
+<text x="912" y="671" font-size="18" fill="#172a40" class="" text-anchor="start">TLS 内 CD8⁺ T／B 细胞空间组织与病理应答相</text>
+<text x="912" y="689" font-size="18" fill="#172a40" class="" text-anchor="start">关。</text>
+<text x="912" y="702" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1038/s41388-024-03123-z</text>
+</g>
+<g><title>Single-cell sequencing reveals immune features of treatment response to neoadjuvant immunochemotherapy in esophageal squamous cell carcinoma — Zhenlin Yang、He Tian、Xiaowei Chen、Bozhao Li（共同一作），Nature Communications，2024-10-22，鳞癌。基线 CXCL13⁺ CD8⁺ T 与应答相关；治疗后须区分耗竭状态。。DOI 10.1038/s41467-024-52977-0</title>
+<rect x="900" y="714" width="414" height="99" rx="8" fill="#e8f5f1"/>
+<rect x="900" y="714" width="4" height="99" rx="2" fill="#096c62"/>
+<text x="912" y="737" font-size="21" fill="#096c62" class="strong" text-anchor="start">Zhenlin Yang</text>
+<text x="1303" y="737" font-size="16" fill="#4a6073" class="strong" text-anchor="end">10-22</text>
+<text x="912" y="757" font-size="17" fill="#4a6073" class="" text-anchor="start">Nat Commun · 鳞癌</text>
+<text x="912" y="777" font-size="18" fill="#172a40" class="" text-anchor="start">基线 CXCL13⁺ CD8⁺ T 与应答相关；治疗后须</text>
+<text x="912" y="795" font-size="18" fill="#172a40" class="" text-anchor="start">区分耗竭状态。</text>
+<text x="912" y="808" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1038/s41467-024-52977-0</text>
+</g>
+<text x="1329" y="245" font-size="27" fill="#172a40" class="strong" text-anchor="start">2025</text>
+<circle cx="1336" cy="255" r="7" fill="#2b5a83"/>
+<g><title>Perioperative nivolumab and chemotherapy in locally advanced squamous cell carcinoma of the oesophagus: a randomized multicentre phase 2 study with circulating tumor DNA dynamics monitoring — Heng Jiao、Siyun Lin、Jianmin Gu、Dongxian Jiang、Peng Cui 等，Molecular Cancer，2025-05-15，鳞癌。纳武利尤单抗联合化疗未显著提高 pCR（15.0% 对 13.3%）。。DOI 10.1186/s12943-025-02332-8</title>
+<rect x="1329" y="290" width="414" height="99" rx="8" fill="#edf2f7"/>
+<rect x="1329" y="290" width="4" height="99" rx="2" fill="#445c75"/>
+<text x="1341" y="313" font-size="21" fill="#445c75" class="strong" text-anchor="start">Heng Jiao</text>
+<text x="1732" y="313" font-size="16" fill="#4a6073" class="strong" text-anchor="end">05-15</text>
+<text x="1341" y="333" font-size="17" fill="#4a6073" class="" text-anchor="start">Mol Cancer · 鳞癌</text>
+<text x="1341" y="353" font-size="18" fill="#172a40" class="" text-anchor="start">纳武利尤单抗联合化疗未显著提高 pCR（15.0%</text>
+<text x="1341" y="371" font-size="18" fill="#172a40" class="" text-anchor="start">对 13.3%）。</text>
+<text x="1341" y="384" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1186/s12943-025-02332-8</text>
+</g>
+<g><title>ctDNA detects residual disease after neoadjuvant chemoradiotherapy and guides adjuvant therapy in esophageal squamous cell carcinoma — Zhichao Liu、Guoqiang Wang、Yang Yang 等，Cell Reports Medicine，2025-09-16，鳞癌。ctDNA 加入常规复评，提高非 pCR 检出敏感度。。DOI 10.1016/j.xcrm.2025.102334</title>
+<rect x="1329" y="396" width="414" height="99" rx="8" fill="#faf0e4"/>
+<rect x="1329" y="396" width="4" height="99" rx="2" fill="#89552b"/>
+<text x="1341" y="419" font-size="21" fill="#89552b" class="strong" text-anchor="start">Zhichao Liu</text>
+<text x="1732" y="419" font-size="16" fill="#4a6073" class="strong" text-anchor="end">09-16</text>
+<text x="1341" y="439" font-size="17" fill="#4a6073" class="" text-anchor="start">Cell Rep Med · 鳞癌</text>
+<text x="1341" y="459" font-size="18" fill="#172a40" class="" text-anchor="start">ctDNA 加入常规复评，提高非 pCR 检出敏感度。</text>
+<text x="1341" y="490" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1016/j.xcrm.2025.102334</text>
+</g>
+<text x="1758" y="245" font-size="27" fill="#172a40" class="strong" text-anchor="start">2026</text>
+<circle cx="1765" cy="255" r="7" fill="#2b5a83"/>
+<g><title>Sequential versus concurrent neoadjuvant immunochemotherapy in locally advanced esophageal squamous cell carcinoma: a randomized, controlled, open-label, phase 2 trial (HCHTOG1906) — Yan Zheng 等，Frontiers in Immunology，2026-05-07，鳞癌。同日与错峰给免疫治疗，pCR 无显著差异。。DOI 10.3389/fimmu.2026.1770662</title>
+<rect x="1758" y="290" width="414" height="99" rx="8" fill="#edf2f7"/>
+<rect x="1758" y="290" width="4" height="99" rx="2" fill="#445c75"/>
+<text x="1770" y="313" font-size="21" fill="#445c75" class="strong" text-anchor="start">Yan Zheng</text>
+<text x="2161" y="313" font-size="16" fill="#4a6073" class="strong" text-anchor="end">05-07</text>
+<text x="1770" y="333" font-size="17" fill="#4a6073" class="" text-anchor="start">Front Immunol · 鳞癌</text>
+<text x="1770" y="353" font-size="18" fill="#172a40" class="" text-anchor="start">同日与错峰给免疫治疗，pCR 无显著差异。</text>
+<text x="1770" y="384" font-size="13" fill="#4a6073" class="" text-anchor="start">10.3389/fimmu.2026.1770662</text>
+</g>
+<g><title>Targeting VEGF signaling and stromal remodeling enhances chemoimmunotherapy efficacy in esophageal cancer — Zhongjian Yu、Wenjia Li、Shiting Xu、Meng Xu、Qi Lin（共同一作），Journal for ImmunoTherapy of Cancer，2026-05-22，鳞癌。血管、成纤维细胞与富胶原生态位关联耐药。。DOI 10.1136/jitc-2025-014249</title>
+<rect x="1758" y="396" width="414" height="99" rx="8" fill="#eaf2fb"/>
+<rect x="1758" y="396" width="4" height="99" rx="2" fill="#245d92"/>
+<text x="1770" y="419" font-size="21" fill="#245d92" class="strong" text-anchor="start">Zhongjian Yu</text>
+<text x="2161" y="419" font-size="16" fill="#4a6073" class="strong" text-anchor="end">05-22</text>
+<text x="1770" y="439" font-size="17" fill="#4a6073" class="" text-anchor="start">J Immunother Cancer · 鳞癌</text>
+<text x="1770" y="459" font-size="18" fill="#172a40" class="" text-anchor="start">血管、成纤维细胞与富胶原生态位关联耐药。</text>
+<text x="1770" y="490" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1136/jitc-2025-014249</text>
+</g>
+<g><title>CX3CR1⁺ CD8⁺ cytotoxic T cells drive tumor killing in esophageal squamous cell carcinoma during neoadjuvant therapy — Yahui Zhao、Ruixiang Zhang、Yang Li、Songming Liu、Cheng Liu、Yuhao Wang（共同一作），Nature Communications，2026-08-22，鳞癌。应答组织富集高杀伤 CX3CR1⁺ CD8⁺ 效应 T 细胞。。DOI 10.1038/s41467-026-76959-6</title>
+<rect x="1758" y="502" width="414" height="99" rx="8" fill="#e8f5f1"/>
+<rect x="1758" y="502" width="4" height="99" rx="2" fill="#096c62"/>
+<text x="1770" y="525" font-size="21" fill="#096c62" class="strong" text-anchor="start">Yahui Zhao</text>
+<text x="2161" y="525" font-size="16" fill="#4a6073" class="strong" text-anchor="end">08-22</text>
+<text x="1770" y="545" font-size="17" fill="#4a6073" class="" text-anchor="start">Nat Commun · 鳞癌</text>
+<text x="1770" y="565" font-size="18" fill="#172a40" class="" text-anchor="start">应答组织富集高杀伤 CX3CR1⁺ CD8⁺ 效应 T 细</text>
+<text x="1770" y="583" font-size="18" fill="#172a40" class="" text-anchor="start">胞。</text>
+<text x="1770" y="596" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1038/s41467-026-76959-6</text>
+</g>
+<g><title>Coordinated cellular programmes distinguish responses to neoadjuvant PD-L1 blockade and potentiate combinatorial immunotherapy in ESCC — Si Li、Jiyu Guo、Jianqun Ma 等，Gut，2026-09-18，鳞癌。PD-L1 阻断应答关联 T／B 细胞及巨噬细胞协同程序。。DOI 10.1136/gutjnl-2026-339071</title>
+<rect x="1758" y="608" width="414" height="99" rx="8" fill="#eaf2fb"/>
+<rect x="1758" y="608" width="4" height="99" rx="2" fill="#245d92"/>
+<text x="1770" y="631" font-size="21" fill="#245d92" class="strong" text-anchor="start">Si Li</text>
+<text x="2161" y="631" font-size="16" fill="#4a6073" class="strong" text-anchor="end">09-18</text>
+<text x="1770" y="651" font-size="17" fill="#4a6073" class="" text-anchor="start">Gut · 鳞癌</text>
+<text x="1770" y="671" font-size="18" fill="#172a40" class="" text-anchor="start">PD-L1 阻断应答关联 T／B 细胞及巨噬细胞协同程</text>
+<text x="1770" y="689" font-size="18" fill="#172a40" class="" text-anchor="start">序。</text>
+<text x="1770" y="702" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1136/gutjnl-2026-339071</text>
+</g>
+<g><title>Th17–CAF–B 细胞轴与新生三级淋巴结构 — Zihang Mai 等，Drug Resistance Updates，2026-11-07，鳞癌。Th17–CAF–B 细胞轴关联 TLS 新生；有功能实验支持。。DOI 10.1016/j.drup.2026.101502</title>
+<rect x="1758" y="714" width="414" height="99" rx="8" fill="#fcf4df"/>
+<rect x="1758" y="714" width="4" height="99" rx="2" fill="#245d92"/>
+<text x="1770" y="737" font-size="21" fill="#825014" class="strong" text-anchor="start">Zihang Mai ★</text>
+<text x="2161" y="737" font-size="16" fill="#4a6073" class="strong" text-anchor="end">11-07</text>
+<text x="1770" y="757" font-size="17" fill="#4a6073" class="" text-anchor="start">Drug Resist Updat · 鳞癌</text>
+<text x="1770" y="777" font-size="18" fill="#172a40" class="" text-anchor="start">Th17–CAF–B 细胞轴关联 TLS 新生；有功能实验</text>
+<text x="1770" y="795" font-size="18" fill="#172a40" class="" text-anchor="start">支持。</text>
+<text x="1770" y="808" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1016/j.drup.2026.101502</text>
+</g>
+<g><title>Distinct T cell subsets associated with responses to different neoadjuvant treatments in esophageal squamous cell carcinoma — Xin-Yun Song et al.，Cell Reports Medicine，2026-11-11，鳞癌。免疫化疗与放化疗的 CD8⁺ T 克隆变化模式不同。。DOI 10.1016/j.xcrm.2026.103162</title>
+<rect x="1758" y="820" width="414" height="99" rx="8" fill="#e8f5f1"/>
+<rect x="1758" y="820" width="4" height="99" rx="2" fill="#096c62"/>
+<text x="1770" y="843" font-size="21" fill="#096c62" class="strong" text-anchor="start">Xin-Yun Song</text>
+<text x="2161" y="843" font-size="16" fill="#4a6073" class="strong" text-anchor="end">11-11</text>
+<text x="1770" y="863" font-size="17" fill="#4a6073" class="" text-anchor="start">Cell Rep Med · 鳞癌</text>
+<text x="1770" y="883" font-size="18" fill="#172a40" class="" text-anchor="start">免疫化疗与放化疗的 CD8⁺ T 克隆变化模式不同。</text>
+<text x="1770" y="914" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1016/j.xcrm.2026.103162</text>
+</g>
+<path d="M42,933 L2178,933" fill="none" stroke="#d6e1e9" stroke-width="1"/>
+<text x="42" y="960" font-size="19" fill="#096c62" class="strong" text-anchor="start">阅读口径</text>
+<text x="181" y="960" font-size="19" fill="#4a6073" class="" text-anchor="start">配对与空间结果用于解释细胞变化；随机临床终点不直接证明机制。黄色 ★ 仅标记中山大学肿瘤防治中心署名。</text>
+</svg>
