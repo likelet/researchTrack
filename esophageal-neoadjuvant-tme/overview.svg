@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
+<title id="title">食管癌新辅助治疗免疫微环境转化研究路线</title><desc id="desc">基线活检、治疗后组织与临床验证三层证据。前后变化不等于治疗预测。</desc>
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#7598ad"/></marker></defs>
+<rect width="1000" height="320" rx="24" fill="#f3f9fc"/>
+<g font-family="system-ui, Microsoft YaHei, sans-serif">
+<text x="30" y="41" fill="#205a70" font-size="19" font-weight="700" letter-spacing="2">TRANSLATIONAL ATLAS / ESOPHAGEAL CANCER</text>
+<g fill="white" stroke="#c9e1ea"><rect x="30" y="67" width="278" height="173" rx="16"/><rect x="361" y="67" width="278" height="173" rx="16"/><rect x="692" y="67" width="278" height="173" rx="16"/></g>
+<path d="M316 149h37m294 0h37" stroke="#7598ad" stroke-width="3" marker-end="url(#arr)"/>
+<g font-size="18" font-weight="700"><text x="52" y="105" fill="#13796b">01 ／ 基线活检</text><text x="383" y="105" fill="#27689a">02 ／ 治疗后组织</text><text x="714" y="105" fill="#865926">03 ／ 临床验证</text></g>
+<g fill="#183949" font-size="24" font-weight="700"><text x="52" y="147">初始免疫状态</text><text x="383" y="147">细胞与空间重塑</text><text x="714" y="147">病理与长期结局</text></g>
+<g fill="#4a6472" font-size="18"><text x="52" y="183">谱系、克隆、空间邻域</text><text x="383" y="183">配对单细胞、空间、多重染色</text><text x="714" y="183">pCR、EFS、随机治疗比较</text></g>
+<rect x="30" y="254" width="940" height="47" rx="11" fill="#e1f3ee"/>
+<text x="48" y="284" fill="#23574d" font-size="20" font-weight="650">治疗后应答相关 ≠ 治疗前预测 ≠ 治疗差异获益</text></g></svg>
