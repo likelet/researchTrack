@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="description" content="肿瘤学大语言模型研究时间轴，从临床文本与多模态模型到科研智能体及临床评估。">
+<title>肿瘤学大语言模型｜互动研究图谱</title>
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/language.js?v=1"></script>
+<script src="studies.js"></script>
+<style>
+:root{--ink:#182f40;--quiet:#48606e;--rule:#dbe7ec;--teal:#146961;--wash:#f3f8fa;--paper:#fff}
+body{background:var(--paper);color:var(--ink)}
+nav,main,footer{width:min(1260px,calc(100% - 40px));margin-inline:auto}
+nav{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+main{padding:36px 0 22px}
+h1{max-width:900px}
+.lede{font-size:clamp(1rem,1.45vw,1.19rem);max-width:760px}
+.scope{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;border-block:1px solid var(--rule);background:var(--wash);padding:10px 14px;margin:18px 0 22px;color:var(--quiet);font-size:.9rem}
+.scope strong{color:var(--ink)}
+.tools{display:grid;grid-template-columns:minmax(220px,1.6fr) minmax(160px,1fr) auto auto;align-items:end;gap:12px;margin:0 0 13px}
+.tools label:not(.check){display:grid;gap:3px;font-size:.88rem;font-weight:700}
+input,select,button{font:inherit;color:inherit}
+input[type=search],select,.soft,.check{min-height:42px;border:1px solid #abc1cc;border-radius:8px;background:white}
+input[type=search],select,.soft{padding:7px 10px}
+.check{display:flex;align-items:center;gap:7px;padding:7px 10px;color:var(--ink);white-space:nowrap}.check input{accent-color:var(--teal);margin:0}
+.soft{cursor:pointer}.soft:hover{background:var(--wash)}
+button:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+.tools button:disabled{opacity:.45;cursor:default}
+.legend{list-style:none;padding:0;display:flex;align-items:center;gap:7px 14px;flex-wrap:wrap;color:var(--quiet);font-size:.82rem;margin:0 0 12px}
+.legend li{display:flex;gap:6px;align-items:center}
+.dot{width:.66rem;height:.66rem;border-radius:50%;background:var(--accent,#31596e);display:inline-block;flex-shrink:0}
+.star{color:#7a5300}
+.timeline-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:12px 0 8px}
+.status{margin:0;font-size:.92rem}
+.timeline{overflow-x:auto;overscroll-behavior-x:contain;padding:2px 2px 12px;scrollbar-color:#99b3c2 #f0f5f6}
+.periods{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(258px,1fr);gap:13px;align-items:start}
+.period{background:var(--wash);border:1px solid var(--rule);border-radius:11px;min-width:0}
+.period h2{margin:0;border-bottom:1px solid var(--rule);padding:10px 12px;display:flex;align-items:baseline;justify-content:space-between;gap:10px;font-size:1.15rem;font-variant-numeric:tabular-nums}
+.period h2 small{font-size:.78rem;color:var(--quiet);font-weight:500;white-space:nowrap}
+.cards{display:grid;gap:7px;padding:8px}
+.study{display:block;text-align:left;width:100%;border:1px solid var(--rule);border-inline-start:3px solid var(--accent,#31596e);border-radius:7px;background:white;padding:9px 10px;cursor:pointer;overflow-wrap:anywhere;line-height:1.32}
+.study:hover{border-color:var(--accent,#31596e);background:#fbfdfd}
+.study strong,.study small{display:block}
+.study strong{font-size:.94rem;margin:.21rem 0 .29rem}
+.study small{color:var(--quiet);font-size:.78rem}
+.study .category{font-size:.77rem;font-weight:700;color:var(--accent,#31596e)}
+.study.key{background:#fffefa}
+.empty{padding:12px;background:var(--wash);border:1px solid var(--rule);border-radius:8px}
+dialog{width:min(650px,calc(100% - 28px));max-height:min(86vh,760px);padding:0;border:1px solid #adc1cc;border-radius:14px;color:var(--ink);box-shadow:0 12px 64px #18374733}
+dialog::backdrop{background:#10273873}
+.dtop{position:sticky;top:0;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:9px 16px;border-bottom:1px solid var(--rule);background:white;z-index:1}
+.dbody{padding:15px 20px 20px}
+.dbody h2{font-size:clamp(1.25rem,4vw,1.8rem);overflow-wrap:anywhere}
+.dbody h3{font-size:1rem;margin:16px 0 4px}
+.dbody p{overflow-wrap:anywhere;margin-bottom:9px}
+.caution{padding:9px 11px;background:#fff9ec;border-inline-start:3px solid #9a6a20;border-radius:3px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@media(max-width:700px){
+ nav,main,footer{width:calc(100% - 28px)}
+ main{padding-top:24px}.tools{grid-template-columns:1fr 1fr;gap:8px}
+ .tools label:first-child{grid-column:1/-1}.tools label,.tools select{min-width:0}
+ .tools .check{white-space:normal}.tools .soft{justify-self:start}
+ .periods{grid-auto-columns:minmax(236px,78vw)}
+}
+@media(max-width:380px){.tools{grid-template-columns:1fr}.tools label:first-child{grid-column:auto}}
+</style>
+</head>
+<body>
+<header><nav id="nav"><a id="home" href="../index.html" data-copy="home">Research Track · 文献图谱</a></nav></header>
+<main>
+<span class="eyebrow" data-copy="eyebrow">研究图谱 / 肿瘤人工智能</span>
+<h1 data-copy="heading">肿瘤学大语言模型</h1>
+<p class="lede" data-copy="lede">从临床文本与视觉语言模型，到科研智能体和临床评估。沿横向时间轴打开论文，查看研究团队、核心发现与证据边界。</p>
+<div class="scope"><strong data-copy="scopeHead">读图提示</strong><span data-copy="scope">★ 为精选里程碑，不代表临床推荐；基准测试和真实患者获益是不同证据。</span></div>
+<div class="tools">
+<label><span data-copy="search">搜索论文</span><input id="query" type="search" data-placeholder="placeholder"></label>
+<label><span data-copy="type">研究类别</span><select id="kind"><option value="" data-copy="all">全部类别</option></select></label>
+<label class="check"><input id="key" type="checkbox"><span data-copy="key">只看 ★ 里程碑</span></label>
+<button class="soft" id="clear" type="button" data-copy="clear" disabled>清除筛选</button>
+</div>
+<ul class="legend" id="legend" data-aria="type"></ul>
+<div class="timeline-head"><p class="status" id="status" role="status"></p><button type="button" class="soft" id="scrollNext" data-copy="scrollNext" hidden>下一段 →</button></div>
+<section class="timeline" id="timeline" tabindex="0" data-aria="timeline" aria-label="横向研究时间轴">
+<p class="sr-only" id="scrollHint" data-copy="hint">时间轴可以左右滚动。使用 Tab 浏览论文，按回车或空格打开详情。</p>
+<div class="periods" id="periods"></div>
+</section>
+<p class="empty" id="empty" hidden></p>
+<noscript>启用 JavaScript 后可浏览交互时间轴。 Enable JavaScript to browse the interactive timeline.</noscript>
+</main>
+<footer data-copy="footer">选录与肿瘤学相关的公开研究，非穷尽式系统综述。时间列按发表年份排序，宽度不表示真实时间间隔。</footer>
+<dialog id="study" aria-labelledby="paper-title">
+<div class="dtop"><strong id="dialog-kind"></strong><button class="soft" id="close" type="button" data-copy="close">关闭 ×</button></div>
+<div class="dbody" id="details"></div>
+</dialog>
+<script>
+(() => {
+'use strict';
+const locale=window.ResearchTrackLanguage;
+const en=locale?.lang==='en';
+const langIndex=en?1:0;
+document.documentElement.lang=en?'en':'zh-CN';
+const strings={
+ home:['Research Track · 文献图谱','Research Track · Literature Atlases'],
+ eyebrow:['研究图谱 / 肿瘤人工智能','RESEARCH ATLAS / ONCOLOGY AI'],
+ heading:['肿瘤学大语言模型','Large Language Models in Oncology'],
+ title:['肿瘤学大语言模型｜互动研究图谱','Large Language Models in Oncology | Interactive Research Atlas'],
+ desc:['肿瘤学大语言模型研究时间轴，从临床文本与多模态模型到科研智能体及临床评估。','An interactive oncology LLM timeline, covering clinical language, multimodal models, research agents and clinical evaluation.'],
+ lede:['从临床文本与视觉语言模型，到科研智能体和临床评估。沿横向时间轴打开论文，查看研究团队、核心发现与证据边界。','Follow the timeline from clinical language and vision–language models to research agents and clinical evaluation. Open a study to see the team, findings, and limitations.'],
+ scopeHead:['读图提示','Reading guide'],
+ scope:['★ 为精选里程碑，不代表临床推荐；基准测试和真实患者获益是不同证据。','★ marks a selected milestone, not a clinical recommendation. Benchmark performance is not evidence of patient benefit.'],
+ search:['搜索论文','Search studies'],
+ placeholder:['标题、作者、机构、期刊、摘要或 DOI','Title, author, team, journal, summary or DOI'],
+ type:['研究类别','Study category'],
+ all:['全部类别','All categories'],
+ key:['只看 ★ 里程碑','★ Milestones only'],
+ milestone:['★ 精选里程碑','★ Selected milestone'],
+ clear:['清除筛选','Clear filters'],
+ timeline:['横向研究时间轴','Horizontal research timeline'],
+ hint:['时间轴可以左右滚动。使用 Tab 浏览论文，按回车或空格打开详情。','Scroll the timeline sideways. Tab through studies, then press Enter or Space to open one.'],
+ scrollNext:['下一段 →','Scroll right →'],
+ close:['关闭 ×','Close ×'],
+ team:['研究团队','Research team'],
+ findings:['核心发现','Key findings'],
+ limits:['证据边界','Limitations'],
+ source:['论文来源','Source'],
+ article:['查看原文','View source'],
+ noSource:['未提供可打开的原文链接。','No source link is available.'],
+ noMatches:['没有匹配记录。试试其他关键词或清除筛选。','No studies match. Try another search or clear the filters.'],
+ noData:['暂未加载研究数据，请刷新后重试。','Study data could not be loaded. Try refreshing the page.'],
+ footer:['选录与肿瘤学相关的公开研究，非穷尽式系统综述。时间列按发表年份排序，宽度不表示真实时间间隔。','A curated selection of public oncology studies, not an exhaustive systematic review. Column widths do not represent elapsed time.']
+};
+const t=key=>strings[key][langIndex];
+const byId=id=>document.getElementById(id);
+const make=(tag,cls,content)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(content!==undefined)e.textContent=content;return e};
+const normalize=s=>String(s??'').normalize('NFKC').toLowerCase().replace(/[–—−]/g,'-');
+const local=value=>Array.isArray(value)?(value[langIndex]||value[1-langIndex]||''):String(value??'');
+const kinds={
+ 'Clinical language':{label:['临床文本','Clinical language'],color:'#146961'},
+ 'Vision–language':{label:['视觉语言','Vision–language'],color:'#744294'},
+ 'Research agents':{label:['科研智能体','Research agents'],color:'#315eaa'},
+ 'Clinical evaluation':{label:['临床评估','Clinical evaluation'],color:'#8a4b27'}
+};
+const category=kind=>kinds[kind]||{label:[kind,kind],color:'#31596e'};
+const label=kind=>category(kind).label[langIndex];
+document.title=t('title');
+document.querySelector('meta[name="description"]').content=t('desc');
+document.querySelectorAll('[data-copy]').forEach(e=>{e.textContent=t(e.dataset.copy)});
+document.querySelectorAll('[data-aria]').forEach(e=>{e.setAttribute('aria-label',t(e.dataset.aria))});
+document.querySelectorAll('[data-placeholder]').forEach(e=>{e.placeholder=t(e.dataset.placeholder)});
+if(locale){locale.mount(byId('nav'));byId('home').href=locale.link('../index.html')}
+const rows=(Array.isArray(window.ONC_AI_STUDIES)?window.ONC_AI_STUDIES:[])
+ .filter(s=>s&&/^\d{4}-\d{2}-\d{2}$/.test(s.date)&&s.title)
+ .map(s=>({...s,hay:normalize([s.title,s.author,s.venue,s.team,s.summary,s.limit,s.kind,category(s.kind).label,s.doi,s.date].flat().join(' '))}))
+ .sort((a,b)=>a.date.localeCompare(b.date)||String(a.title).localeCompare(String(b.title)));
+const slug='researchTrack.oncologyLLMFilters';
+const q=byId('query'),kind=byId('kind'),key=byId('key'),list=byId('periods'),timeline=byId('timeline'),dialog=byId('study'),empty=byId('empty'),next=byId('scrollNext'),clear=byId('clear');
+timeline.setAttribute('aria-describedby','scrollHint');
+const count=n=>en?n+' '+(n===1?'study':'studies'):n+' 篇';
+const displayDate=s=>{
+ const date=new Date(s+'T00:00:00Z');
+ if(Number.isNaN(date.getTime()))return s;
+ return Intl.DateTimeFormat(en?'en':'zh-CN',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'}).format(date);
+};
+for(const [name,info] of Object.entries(kinds)){
+ const opt=make('option','',label(name));opt.value=name;kind.append(opt);
+ const li=make('li'),dot=make('span','dot');dot.setAttribute('aria-hidden','true');dot.style.setProperty('--accent',info.color);
+ li.append(dot,make('span','',label(name)));byId('legend').append(li);
+}
+byId('legend').append(make('li','star',t('milestone')));
+try{
+ const state=JSON.parse(sessionStorage.getItem(slug)||'null');
+ if(state){q.value=state.q||'';kind.value=state.kind in kinds?state.kind:'';key.checked=Boolean(state.key);}
+ window.addEventListener('pagehide',()=>{try{sessionStorage.setItem(slug,JSON.stringify({q:q.value,kind:kind.value,key:key.checked}));}catch{}});
+}catch{}
+const source=value=>{
+ const v=String(value||'').trim();
+ if(/^10\.\d{4,9}\/\S+$/i.test(v)){const raw=v.split('/').map(e=>encodeURIComponent(e)).join('/');return ['https://doi.org/'+raw,'DOI: '+v]}
+ try{const url=new URL(v);if(url.protocol==='https:')return [url.href,url.hostname==='doi.org'?'DOI: '+decodeURIComponent(url.pathname.slice(1)):t('article')+' · '+url.hostname]}catch{}
+ return null;
+};
+let opener=null;
+function paragraph(root,heading,content,cls){if(content)root.append(make('h3','',heading),make('p',cls,content));}
+function show(s,trigger){
+ opener=trigger;
+ const details=byId('details');details.replaceChildren();
+ byId('dialog-kind').textContent=label(s.kind)+(s.key?' · '+t('milestone'):'');
+ const h=make('h2','',local(s.title));h.id='paper-title';
+ details.append(h,make('p','',[s.author,s.venue,displayDate(s.date)].filter(Boolean).join(' · ')));
+ paragraph(details,t('team'),local(s.team));
+ paragraph(details,t('findings'),local(s.summary));
+ paragraph(details,t('limits'),local(s.limit),'caution');
+ details.append(make('h3','',t('source')));
+ const ref=source(s.doi);
+ if(ref){const a=make('a','',ref[1]);a.href=ref[0];a.target='_blank';a.rel='noopener noreferrer';details.append(a)}else details.append(make('p','',t('noSource')));
+ dialog.showModal();dialog.scrollTop=0;byId('close').focus();
+}
+byId('close').addEventListener('click',()=>dialog.close());
+dialog.addEventListener('close',()=>{if(opener?.isConnected)opener.focus();opener=null;});
+dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
+function pager(){
+ const max=timeline.scrollWidth-timeline.clientWidth;
+ next.hidden=max<=5;
+ next.disabled=max>5&&timeline.scrollLeft>=max-5;
+}
+next.addEventListener('click',()=>timeline.scrollBy({left:Math.max(220,Math.floor(timeline.clientWidth*.72)),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}));
+timeline.addEventListener('scroll',pager,{passive:true});
+window.addEventListener('resize',pager);
+function paint(){
+ const words=normalize(q.value).trim().split(/\s+/).filter(Boolean);
+ const visible=rows.filter(s=>(!kind.value||s.kind===kind.value)&&(!key.checked||s.key)&&words.every(w=>s.hay.includes(w)));
+ const groups=new Map();
+ for(const s of visible){
+  const y=s.date.slice(0,4), period=y==='2023'||y==='2024'?'2023–2024':y;
+  if(!groups.has(period))groups.set(period,[]);
+  groups.get(period).push(s);
+ }
+ list.replaceChildren();
+ for(const [period,studies] of groups){
+  const column=make('section','period'), head=make('h2','',period), cards=make('div','cards');
+  head.append(make('small','',count(studies.length)));column.append(head,cards);list.append(column);
+  for(const s of studies){
+   const card=make('button','study'+(s.key?' key':''));card.type='button';card.style.setProperty('--accent',category(s.kind).color);
+   const sub=make('span','category',(s.key?'★ · ':'')+label(s.kind));
+   card.append(sub,make('strong','',local(s.title)),make('small','',[s.author,s.venue,displayDate(s.date)].filter(Boolean).join(' · ')));
+   card.addEventListener('click',()=>show(s,card));cards.append(card);
+  }
+ }
+ timeline.hidden=!visible.length;
+ empty.hidden=!!visible.length;
+ empty.textContent=t(rows.length?'noMatches':'noData');
+ byId('status').textContent=en?'Showing '+visible.length+' / '+count(rows.length):'显示 '+visible.length+' / '+count(rows.length);
+ clear.disabled=!words.length&&!kind.value&&!key.checked;
+ pager();
+}
+q.addEventListener('input',paint);kind.addEventListener('change',paint);key.addEventListener('change',paint);
+clear.addEventListener('click',()=>{q.value='';kind.value='';key.checked=false;paint();q.focus()});
+paint();
+})();
+</script>
+</body>
+</html>
