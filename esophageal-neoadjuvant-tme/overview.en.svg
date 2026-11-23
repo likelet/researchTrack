@@ -1,10 +1,10 @@
-<svg xml:lang="en" xmlns="http://www.w3.org/2000/svg" width="2220" height="1010" viewBox="0 0 2220 1010" role="img" aria-labelledby="overview-title overview-desc">
-<title id="overview-title">Neoadjuvant therapy and the esophageal cancer immune microenvironment | 16 original studies</title><desc id="overview-desc">Horizontal timeline by first online publication date. Each card lists the author, journal, summary, and DOI. Squamous cell carcinoma and adenocarcinoma are labeled separately.</desc><style>text{font-family:Arial,Helvetica,sans-serif} .strong{font-weight:700}</style>
-<rect x="0" y="0" width="2220" height="1010" rx="0" fill="#ffffff"/>
+<svg xml:lang="en" xmlns="http://www.w3.org/2000/svg" width="2220" height="1222" viewBox="0 0 2220 1222" role="img" aria-labelledby="overview-title overview-desc">
+<title id="overview-title">Neoadjuvant therapy and the esophageal cancer immune microenvironment | 18 original studies</title><desc id="overview-desc">Horizontal timeline by first online publication date. Each card lists the author, journal, summary, and DOI. Squamous cell carcinoma and adenocarcinoma are labeled separately.</desc><style>text{font-family:Arial,Helvetica,sans-serif} .strong{font-weight:700}</style>
+<rect x="0" y="0" width="2220" height="1222" rx="0" fill="#ffffff"/>
 <rect x="42" y="26" width="51" height="5" rx="3" fill="#09796c"/>
 <text x="42" y="55" font-size="20" fill="#096c62" class="strong" text-anchor="start">Research timeline / 2022–2026</text>
 <text x="42" y="112" font-size="50" fill="#172a40" class="strong" text-anchor="start">Neoadjuvant Therapy and the Esophageal Cancer Immune Microenvironment</text>
-<text x="42" y="151" font-size="22" fill="#4a6073" class="" text-anchor="start">16 original studies · ESCC and EAC shown separately · first online publication</text>
+<text x="42" y="151" font-size="22" fill="#4a6073" class="" text-anchor="start">18 original studies · ESCC and EAC shown separately · first online publication</text>
 <rect x="1250" y="130" width="13" height="13" rx="4" fill="#096c62"/>
 <text x="1271" y="143" font-size="18" fill="#4a6073" class="" text-anchor="start">Paired changes</text>
 <rect x="1466" y="130" width="13" height="13" rx="4" fill="#245d92"/>
@@ -128,67 +128,87 @@
 </g>
 <text x="1758" y="245" font-size="27" fill="#172a40" class="strong" text-anchor="start">2026</text>
 <circle cx="1765" cy="255" r="7" fill="#2b5a83"/>
+<g><title>PRDM1⁺ Malignant Cells Mediate an Immunosuppressive Landscape and Resistance to Neoadjuvant Chemoradiotherapy and Immunotherapy in Esophageal Squamous Cell Carcinoma — Dijian Shen, Rui Li, Yong She, Xuefei Liu, Yuanyang Huang, and Yongling Ji (co-first authors), Advanced Science, 2026-01-20. ESCC. PRDM1⁺ tumor cells rose after nICRT in non-MPR, alongside Tregs and TREM2⁺ TAMs. DOI 10.1002/advs.202515207</title>
+<rect x="1758" y="290" width="414" height="99" rx="8" fill="#fcf4df"/>
+<rect x="1758" y="290" width="4" height="99" rx="2" fill="#096c62"/>
+<text x="1770" y="313" font-size="21" fill="#825014" class="strong" text-anchor="start">Dijian Shen ★</text>
+<text x="2161" y="313" font-size="16" fill="#4a6073" class="strong" text-anchor="end">01-20</text>
+<text x="1770" y="333" font-size="17" fill="#4a6073" class="" text-anchor="start">Adv Sci · ESCC</text>
+<text x="1770" y="353" font-size="16" fill="#172a40" class="" text-anchor="start">PRDM1⁺ tumor cells rose after nICRT in</text>
+<text x="1770" y="370" font-size="16" fill="#172a40" class="" text-anchor="start">non-MPR, alongside Tregs and TREM2⁺ TAMs.</text>
+<text x="1770" y="384" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1002/advs.202515207</text>
+</g>
 <g><title>Sequential versus concurrent neoadjuvant immunochemotherapy in locally advanced esophageal squamous cell carcinoma: a randomized, controlled, open-label, phase 2 trial (HCHTOG1906) — Yan Zheng et al., Frontiers in Immunology, 2026-05-07. ESCC. Same-day vs staggered immunotherapy: no significant pCR difference. DOI 10.3389/fimmu.2026.1770662</title>
-<rect x="1758" y="290" width="414" height="99" rx="8" fill="#edf2f7"/>
-<rect x="1758" y="290" width="4" height="99" rx="2" fill="#445c75"/>
-<text x="1770" y="313" font-size="21" fill="#445c75" class="strong" text-anchor="start">Yan Zheng</text>
-<text x="2161" y="313" font-size="16" fill="#4a6073" class="strong" text-anchor="end">05-07</text>
-<text x="1770" y="333" font-size="17" fill="#4a6073" class="" text-anchor="start">Front Immunol · ESCC</text>
-<text x="1770" y="353" font-size="18" fill="#172a40" class="" text-anchor="start">Same-day vs staggered immunotherapy: no</text>
-<text x="1770" y="371" font-size="18" fill="#172a40" class="" text-anchor="start">significant pCR difference.</text>
-<text x="1770" y="384" font-size="13" fill="#4a6073" class="" text-anchor="start">10.3389/fimmu.2026.1770662</text>
+<rect x="1758" y="396" width="414" height="99" rx="8" fill="#edf2f7"/>
+<rect x="1758" y="396" width="4" height="99" rx="2" fill="#445c75"/>
+<text x="1770" y="419" font-size="21" fill="#445c75" class="strong" text-anchor="start">Yan Zheng</text>
+<text x="2161" y="419" font-size="16" fill="#4a6073" class="strong" text-anchor="end">05-07</text>
+<text x="1770" y="439" font-size="17" fill="#4a6073" class="" text-anchor="start">Front Immunol · ESCC</text>
+<text x="1770" y="459" font-size="18" fill="#172a40" class="" text-anchor="start">Same-day vs staggered immunotherapy: no</text>
+<text x="1770" y="477" font-size="18" fill="#172a40" class="" text-anchor="start">significant pCR difference.</text>
+<text x="1770" y="490" font-size="13" fill="#4a6073" class="" text-anchor="start">10.3389/fimmu.2026.1770662</text>
 </g>
 <g><title>Targeting VEGF signaling and stromal remodeling enhances chemoimmunotherapy efficacy in esophageal cancer — Zhongjian Yu, Wenjia Li, Shiting Xu, Meng Xu, and Qi Lin (co-first authors), Journal for ImmunoTherapy of Cancer, 2026-05-22. ESCC. A collagen-rich endothelial and fibroblast niche was linked to resistance. DOI 10.1136/jitc-2025-014249</title>
-<rect x="1758" y="396" width="414" height="99" rx="8" fill="#eaf2fb"/>
-<rect x="1758" y="396" width="4" height="99" rx="2" fill="#245d92"/>
-<text x="1770" y="419" font-size="21" fill="#245d92" class="strong" text-anchor="start">Zhongjian Yu</text>
-<text x="2161" y="419" font-size="16" fill="#4a6073" class="strong" text-anchor="end">05-22</text>
-<text x="1770" y="439" font-size="17" fill="#4a6073" class="" text-anchor="start">J Immunother Cancer · ESCC</text>
-<text x="1770" y="459" font-size="18" fill="#172a40" class="" text-anchor="start">A collagen-rich endothelial and fibroblast</text>
-<text x="1770" y="477" font-size="18" fill="#172a40" class="" text-anchor="start">niche was linked to resistance.</text>
-<text x="1770" y="490" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1136/jitc-2025-014249</text>
+<rect x="1758" y="502" width="414" height="99" rx="8" fill="#eaf2fb"/>
+<rect x="1758" y="502" width="4" height="99" rx="2" fill="#245d92"/>
+<text x="1770" y="525" font-size="21" fill="#245d92" class="strong" text-anchor="start">Zhongjian Yu</text>
+<text x="2161" y="525" font-size="16" fill="#4a6073" class="strong" text-anchor="end">05-22</text>
+<text x="1770" y="545" font-size="17" fill="#4a6073" class="" text-anchor="start">J Immunother Cancer · ESCC</text>
+<text x="1770" y="565" font-size="18" fill="#172a40" class="" text-anchor="start">A collagen-rich endothelial and fibroblast</text>
+<text x="1770" y="583" font-size="18" fill="#172a40" class="" text-anchor="start">niche was linked to resistance.</text>
+<text x="1770" y="596" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1136/jitc-2025-014249</text>
 </g>
 <g><title>CX3CR1⁺ CD8⁺ cytotoxic T cells drive tumor killing in esophageal squamous cell carcinoma during neoadjuvant therapy — Yahui Zhao, Ruixiang Zhang, Yang Li, Songming Liu, Cheng Liu, and Yuhao Wang (co-first authors), Nature Communications, 2026-08-22. ESCC. Responding tumors were enriched for cytotoxic CX3CR1⁺ CD8⁺ effector T cells. DOI 10.1038/s41467-026-76959-6</title>
-<rect x="1758" y="502" width="414" height="99" rx="8" fill="#e8f5f1"/>
-<rect x="1758" y="502" width="4" height="99" rx="2" fill="#096c62"/>
-<text x="1770" y="525" font-size="21" fill="#096c62" class="strong" text-anchor="start">Yahui Zhao</text>
-<text x="2161" y="525" font-size="16" fill="#4a6073" class="strong" text-anchor="end">08-22</text>
-<text x="1770" y="545" font-size="17" fill="#4a6073" class="" text-anchor="start">Nat Commun · ESCC</text>
-<text x="1770" y="565" font-size="18" fill="#172a40" class="" text-anchor="start">Responding tumors were enriched for</text>
-<text x="1770" y="583" font-size="18" fill="#172a40" class="" text-anchor="start">cytotoxic CX3CR1⁺ CD8⁺ effector T cells.</text>
-<text x="1770" y="596" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1038/s41467-026-76959-6</text>
+<rect x="1758" y="608" width="414" height="99" rx="8" fill="#e8f5f1"/>
+<rect x="1758" y="608" width="4" height="99" rx="2" fill="#096c62"/>
+<text x="1770" y="631" font-size="21" fill="#096c62" class="strong" text-anchor="start">Yahui Zhao</text>
+<text x="2161" y="631" font-size="16" fill="#4a6073" class="strong" text-anchor="end">08-22</text>
+<text x="1770" y="651" font-size="17" fill="#4a6073" class="" text-anchor="start">Nat Commun · ESCC</text>
+<text x="1770" y="671" font-size="18" fill="#172a40" class="" text-anchor="start">Responding tumors were enriched for</text>
+<text x="1770" y="689" font-size="18" fill="#172a40" class="" text-anchor="start">cytotoxic CX3CR1⁺ CD8⁺ effector T cells.</text>
+<text x="1770" y="702" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1038/s41467-026-76959-6</text>
 </g>
 <g><title>Coordinated cellular programmes distinguish responses to neoadjuvant PD-L1 blockade and potentiate combinatorial immunotherapy in ESCC — Si Li, Jiyu Guo, Jianqun Ma et al., Gut, 2026-09-18. ESCC. Coordinated T, B and macrophage programs tracked with response to PD-L1 blockade. DOI 10.1136/gutjnl-2026-339071</title>
-<rect x="1758" y="608" width="414" height="99" rx="8" fill="#eaf2fb"/>
-<rect x="1758" y="608" width="4" height="99" rx="2" fill="#245d92"/>
-<text x="1770" y="631" font-size="21" fill="#245d92" class="strong" text-anchor="start">Si Li</text>
-<text x="2161" y="631" font-size="16" fill="#4a6073" class="strong" text-anchor="end">09-18</text>
-<text x="1770" y="651" font-size="17" fill="#4a6073" class="" text-anchor="start">Gut · ESCC</text>
-<text x="1770" y="671" font-size="18" fill="#172a40" class="" text-anchor="start">Coordinated T, B and macrophage programs</text>
-<text x="1770" y="689" font-size="18" fill="#172a40" class="" text-anchor="start">tracked with response to PD-L1 blockade.</text>
-<text x="1770" y="702" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1136/gutjnl-2026-339071</text>
+<rect x="1758" y="714" width="414" height="99" rx="8" fill="#eaf2fb"/>
+<rect x="1758" y="714" width="4" height="99" rx="2" fill="#245d92"/>
+<text x="1770" y="737" font-size="21" fill="#245d92" class="strong" text-anchor="start">Si Li</text>
+<text x="2161" y="737" font-size="16" fill="#4a6073" class="strong" text-anchor="end">09-18</text>
+<text x="1770" y="757" font-size="17" fill="#4a6073" class="" text-anchor="start">Gut · ESCC</text>
+<text x="1770" y="777" font-size="18" fill="#172a40" class="" text-anchor="start">Coordinated T, B and macrophage programs</text>
+<text x="1770" y="795" font-size="18" fill="#172a40" class="" text-anchor="start">tracked with response to PD-L1 blockade.</text>
+<text x="1770" y="808" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1136/gutjnl-2026-339071</text>
+</g>
+<g><title>Targeting UDP-GlcNAc–mediated O-GlcNAcylation in regulatory T cells attenuates immunotherapy resistance in esophageal squamous cell carcinoma — Yuchen Zhang, Pingjing Zhou, and Hongyu Zhang (co-first authors), Cell Death &amp; Disease, 2026-11-03. ESCC. UDP-GlcNAc marked nonresponse; models support Treg ferroptosis resistance. DOI 10.1038/s41419-026-09371-z</title>
+<rect x="1758" y="820" width="414" height="99" rx="8" fill="#faf0e4"/>
+<rect x="1758" y="820" width="4" height="99" rx="2" fill="#89552b"/>
+<text x="1770" y="843" font-size="21" fill="#89552b" class="strong" text-anchor="start">Yuchen Zhang</text>
+<text x="2161" y="843" font-size="16" fill="#4a6073" class="strong" text-anchor="end">11-03</text>
+<text x="1770" y="863" font-size="17" fill="#4a6073" class="" text-anchor="start">Cell Death Dis · ESCC</text>
+<text x="1770" y="883" font-size="18" fill="#172a40" class="" text-anchor="start">UDP-GlcNAc marked nonresponse; models</text>
+<text x="1770" y="901" font-size="18" fill="#172a40" class="" text-anchor="start">support Treg ferroptosis resistance.</text>
+<text x="1770" y="914" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1038/s41419-026-09371-z</text>
 </g>
 <g><title>The Th17–CAF–B-cell axis and de novo tertiary lymphoid structures — Zihang Mai et al., Drug Resistance Updates, 2026-11-07. ESCC. Functional experiments support a Th17–CAF–B-cell axis linked to new TLS. DOI 10.1016/j.drup.2026.101502</title>
-<rect x="1758" y="714" width="414" height="99" rx="8" fill="#fcf4df"/>
-<rect x="1758" y="714" width="4" height="99" rx="2" fill="#245d92"/>
-<text x="1770" y="737" font-size="21" fill="#825014" class="strong" text-anchor="start">Zihang Mai ★</text>
-<text x="2161" y="737" font-size="16" fill="#4a6073" class="strong" text-anchor="end">11-07</text>
-<text x="1770" y="757" font-size="17" fill="#4a6073" class="" text-anchor="start">Drug Resist Updat · ESCC</text>
-<text x="1770" y="777" font-size="18" fill="#172a40" class="" text-anchor="start">Functional experiments support a</text>
-<text x="1770" y="795" font-size="18" fill="#172a40" class="" text-anchor="start">Th17–CAF–B-cell axis linked to new TLS.</text>
-<text x="1770" y="808" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1016/j.drup.2026.101502</text>
+<rect x="1758" y="926" width="414" height="99" rx="8" fill="#fcf4df"/>
+<rect x="1758" y="926" width="4" height="99" rx="2" fill="#245d92"/>
+<text x="1770" y="949" font-size="21" fill="#825014" class="strong" text-anchor="start">Zihang Mai ★</text>
+<text x="2161" y="949" font-size="16" fill="#4a6073" class="strong" text-anchor="end">11-07</text>
+<text x="1770" y="969" font-size="17" fill="#4a6073" class="" text-anchor="start">Drug Resist Updat · ESCC</text>
+<text x="1770" y="989" font-size="18" fill="#172a40" class="" text-anchor="start">Functional experiments support a</text>
+<text x="1770" y="1007" font-size="18" fill="#172a40" class="" text-anchor="start">Th17–CAF–B-cell axis linked to new TLS.</text>
+<text x="1770" y="1020" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1016/j.drup.2026.101502</text>
 </g>
 <g><title>Distinct T cell subsets associated with responses to different neoadjuvant treatments in esophageal squamous cell carcinoma — Xin-Yun Song et al., Cell Reports Medicine, 2026-11-11. ESCC. CD8⁺ T-cell clonal changes varied by neoadjuvant regimen. DOI 10.1016/j.xcrm.2026.103162</title>
-<rect x="1758" y="820" width="414" height="99" rx="8" fill="#e8f5f1"/>
-<rect x="1758" y="820" width="4" height="99" rx="2" fill="#096c62"/>
-<text x="1770" y="843" font-size="21" fill="#096c62" class="strong" text-anchor="start">Xin-Yun Song</text>
-<text x="2161" y="843" font-size="16" fill="#4a6073" class="strong" text-anchor="end">11-11</text>
-<text x="1770" y="863" font-size="17" fill="#4a6073" class="" text-anchor="start">Cell Rep Med · ESCC</text>
-<text x="1770" y="883" font-size="18" fill="#172a40" class="" text-anchor="start">CD8⁺ T-cell clonal changes varied by</text>
-<text x="1770" y="901" font-size="18" fill="#172a40" class="" text-anchor="start">neoadjuvant regimen.</text>
-<text x="1770" y="914" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1016/j.xcrm.2026.103162</text>
+<rect x="1758" y="1032" width="414" height="99" rx="8" fill="#e8f5f1"/>
+<rect x="1758" y="1032" width="4" height="99" rx="2" fill="#096c62"/>
+<text x="1770" y="1055" font-size="21" fill="#096c62" class="strong" text-anchor="start">Xin-Yun Song</text>
+<text x="2161" y="1055" font-size="16" fill="#4a6073" class="strong" text-anchor="end">11-11</text>
+<text x="1770" y="1075" font-size="17" fill="#4a6073" class="" text-anchor="start">Cell Rep Med · ESCC</text>
+<text x="1770" y="1095" font-size="18" fill="#172a40" class="" text-anchor="start">CD8⁺ T-cell clonal changes varied by</text>
+<text x="1770" y="1113" font-size="18" fill="#172a40" class="" text-anchor="start">neoadjuvant regimen.</text>
+<text x="1770" y="1126" font-size="13" fill="#4a6073" class="" text-anchor="start">10.1016/j.xcrm.2026.103162</text>
 </g>
-<path d="M42,933 L2178,933" fill="none" stroke="#d6e1e9" stroke-width="1"/>
-<text x="42" y="960" font-size="19" fill="#096c62" class="strong" text-anchor="start">Evidence note</text>
-<text x="205" y="960" font-size="19" fill="#4a6073" class="" text-anchor="start">Paired and spatial studies describe cellular changes; randomized endpoints do not directly establish mechanisms. A yellow star marks a SYSUCC collaboration.</text>
+<path d="M42,1145 L2178,1145" fill="none" stroke="#d6e1e9" stroke-width="1"/>
+<text x="42" y="1172" font-size="19" fill="#096c62" class="strong" text-anchor="start">Evidence note</text>
+<text x="205" y="1172" font-size="19" fill="#4a6073" class="" text-anchor="start">Paired and spatial studies describe cellular changes; randomized endpoints do not directly establish mechanisms. A yellow star marks a SYSUCC collaboration.</text>
 </svg>

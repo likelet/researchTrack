@@ -3,14 +3,14 @@ const crcEn = {
   "description": "Compare colorectal cancer CMS transcriptomic and DNA-based genomic subtypes, explore associations, and read original studies.",
   "labels": {
     "home": "Research Track · Literature atlas",
-    "original": "Original CMS figure",
+    "original": "Archived CMS figure",
     "eyebrow": "04 / INTERACTIVE COMPARISON",
     "title": "Colorectal cancer: CMS and genomic subtypes",
     "introStart": "The left panel shows tissue-level RNA expression states; the right shows DNA alterations and chromosomal copy-number patterns. Select any subtype for its definition and links across systems. Highlights indicate published enrichment or shared features. They ",
     "introStrong": "do not imply a one-to-one mapping",
     "punct": ".",
-    "full": "View full-size figure",
-    "download": "Download PNG",
+    "full": "View archived figure",
+    "download": "Download archived PNG",
     "reset": "Clear selection",
     "rnaTitle": "CMS transcriptomic subtypes",
     "rnaDesc": "Guinney et al.: 4,151 patients across 18 datasets; percentages are from the 3,962-case classification set. ",
@@ -37,7 +37,14 @@ const crcEn = {
     "tcga": "TCGA 2012: 276 cases underwent multi-omic analysis. Among 224 cases with exome data, approximately 16% were hypermutated and 84% were non-hypermutated. ",
     "cornish": "Cornish et al. 2024: whole-genome sequencing of 2,023 cases identified MSI, polymerase proofreading-associated (POL), and MSS groups. Untreated primary MSS tumors were further classified as WGD-A, WGD-B, GS or LOH. Cohorts and classification thresholds are not interchangeable across studies. ",
     "refs": "Original studies",
-    "footer": "For research reading, not a substitute for standard MSI/MMR testing or clinical guidelines."
+    "footer": "For research reading, not a substitute for standard MSI/MMR testing or clinical guidelines.",
+    "newEvidence": "New evidence and historical additions",
+    "porterTitle": "2026-10-29 · Porter et al. · CMS and iCMS in early-onset colorectal cancer",
+    "porterTeam": "Co-corresponding authors: Ramnik J. Xavier (Broad Institute / Massachusetts General Hospital), Ana C. Anderson (Brigham and Women’s Hospital), and Kimmie Ng (Dana-Farber Cancer Institute).",
+    "porterFinding": "Single-nucleus RNA sequencing profiled 189 primary tumors (54 early-onset and 135 average-onset); pseudobulk CMS was assigned in 170. CMS2 was more frequent in early-onset tumors in the unadjusted comparison, but the association with continuous age was not significant after sidedness and other covariates were included. Multiplex immunofluorescence in 712 external MSS tumors confirmed differences in cell composition, not CMS calls. Neither age nor the expression subtype determines the DNA class of an individual tumor.",
+    "zhaoTitle": "2022 · Zhao et al. · ChangKang historical addition",
+    "zhaoTeam": "Feng Wang and Rui-Hua Xu (Sun Yat-sen University Cancer Center) were co-corresponding authors. Qi Zhao, Feng Wang, Yan-Xing Chen, and Shifu Chen contributed equally.",
+    "zhaoFinding": "Exomes from 1,015 Chinese patients were used to propose HM, CIN-HR, CIN-LR, and GS. The CMS comparison in Fig. 5e used a separate TCGA-CRC cohort, with 10q11.21 amplification as a proxy within CIN. The resulting CIN-HR group had the largest CMS4 fraction. This was not matched RNA validation in the 1,015 patients and does not equate CIN-HR with CMS4; no subtype link is added."
   },
   "details": {
     "cms1": [
@@ -78,3 +85,4 @@ const crcEn = {
     ]
   }
 };
+

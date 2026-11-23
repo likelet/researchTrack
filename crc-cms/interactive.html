@@ -5,10 +5,10 @@
 <style>
 .intro{max-width:45em}.atlas{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:22px 0 14px}.atlas section,.detail,.note{background:white;border:1px solid #dce8ed;border-radius:14px;padding:18px}.atlas h2{font-size:1.3rem}.atlas p{font-size:.9rem;margin-bottom:12px}.nodes{display:grid;gap:7px}.nodes.dna{grid-template-columns:1fr 1fr}.node{display:block;text-align:left;background:var(--bg,#eef6f7);border:1px solid transparent;border-left:4px solid var(--ink,#166575);color:#173647;border-radius:8px;padding:9px 12px;font:inherit;cursor:pointer;min-width:0}.node strong{color:var(--ink,#166575);margin-right:7px}.node small{display:block;color:#3c5867;line-height:1.35}.node .pct{float:right;font-size:.8rem;font-weight:700}.node .badge{display:none;font-weight:750;margin:.25em 0 0}.node.is-selected{box-shadow:0 0 0 2px var(--ink,#166575)}.node.is-related{border:1px dashed #14677a;border-left-width:4px}.node.is-selected .badge,.node.is-related .badge{display:block}.node:hover{filter:brightness(.97)}button:focus-visible{outline:3px solid #147477;outline-offset:3px}.reset{border:0;font:inherit;cursor:pointer;color:#145675}.soft{background:#f0f5f8}.detail{margin:14px 0 20px;border-left:4px solid #1a6e79}.detail h2{font-size:1.25rem}.detail p{margin:6px 0}.note{margin-bottom:14px}.note h2{font-size:1.17rem}.note p:last-child{margin-bottom:0}.refs{margin-bottom:0;padding-left:1.5em}.refs a{overflow-wrap:anywhere}.kicker{display:block;color:#38677a;font-size:.8rem;font-weight:750;letter-spacing:.06em}
 @media(max-width:670px){.atlas{grid-template-columns:1fr;gap:11px}.atlas section,.detail,.note{padding:15px}}@media(max-width:330px){.nodes.dna{grid-template-columns:1fr}.node .pct{float:none;display:block}}
-</style></head><body><header><nav><a href="../index.html" data-crc-nav><span data-crc="home">Research Track · 文献图谱</span></a> <span aria-hidden="true">/</span> <a href="./index.html" data-crc-nav><span data-crc="original">CMS 原图</span></a></nav></header>
+</style></head><body><header><nav><a href="../index.html" data-crc-nav><span data-crc="home">Research Track · 文献图谱</span></a> <span aria-hidden="true">/</span> <a href="./index.html" data-crc-nav><span data-crc="original">CMS 原图存档</span></a></nav></header>
 <main><span class="eyebrow"><span data-crc="eyebrow">04 / 交互对照</span></span><h1><span data-crc="title">结直肠癌：CMS 与基因组分型</span></h1>
 <p class="intro"><span data-crc="introStart">左侧是组织转录组的表达状态，右侧是 DNA 变异及染色体拷贝数特征。选择任一类型可查看定义和跨体系联系。高亮表示有文献支持的富集或特征关联，</span><strong><span data-crc="introStrong">不代表一一对应</span></strong><span data-crc="punct">。</span></p>
-<div class="buttons"><a class="btn" href="figure.png"><span data-crc="full">查看原尺寸图</span></a><a class="btn" href="figure.png" download="crc-cms.png"><span data-crc="download">下载 PNG</span></a><button class="btn reset" id="reset" type="button"><span data-crc="reset">清除选择</span></button></div>
+<div class="buttons"><a class="btn" href="figure.png"><span data-crc="full">查看存档原图</span></a><a class="btn" href="figure.png" download="crc-cms.png"><span data-crc="download">下载存档 PNG</span></a><button class="btn reset" id="reset" type="button"><span data-crc="reset">清除选择</span></button></div>
 <div class="atlas">
 <section aria-labelledby="rna"><span class="kicker">01 / RNA</span><h2 id="rna"><span data-crc="rnaTitle">CMS 转录组分型</span></h2><p><span data-crc="rnaDesc">Guinney 等：18 个数据集共 4,151 人；比例来自分型分析集 3,962 例。</span><a href="#ref1">[1]</a></p>
 <div class="nodes">
@@ -29,15 +29,24 @@
 <div class="detail" id="detail" aria-live="polite" aria-atomic="true"><h2><span data-crc="read">如何读这张图？</span></h2><p><span data-crc="initial">点击任一分型，或用 Tab 移到分型后按回车／空格。总体上，CMS1 富集 MSI，但也可覆盖 HM-SNV；CMS2 常有 CIN 特征；CMS3 中富集 GS，却不能等同。CMS4 的基质特征不定义某种 DNA 类型。</span></p></div>
 <noscript><p><span data-crc="noscript">当前浏览器未启用 JavaScript；可打开原尺寸图查看完整对照。</span></p></noscript>
 <section class="note"><h2><span data-crc="dnaEvo">DNA 分类框架的演进</span></h2><p><span data-crc="tcga">TCGA 2012：276 例做多组学分析；224 例外显子组中约 16% 高突变、84% 非高突变。</span><a href="#ref2">[2]</a></p><p><span data-crc="cornish">Cornish 等 2024：对 2,023 例做全基因组测序；按 MSI、聚合酶校对相关（POL）、MSS 分组，并将未经治疗的原发 MSS 肿瘤进一步划分为 WGD-A、WGD-B、GS、LOH。不同研究的分类阈值与队列不可直接互换。</span><a href="#ref4">[4]</a></p></section>
+<section class="note" id="new-evidence" aria-labelledby="recent-title"><h2 id="recent-title"><span data-crc="newEvidence">新增证据与历史补录</span></h2>
+<p><strong><span data-crc="porterTitle">2026-10-29 · Porter et al. · 早发结直肠癌的 CMS / iCMS</span></strong> <a href="#ref6">[6]</a></p>
+<p><span data-crc="porterTeam">共同通讯：Ramnik J. Xavier（Broad／麻省总医院）、Ana C. Anderson（Brigham and Women’s Hospital）、Kimmie Ng（Dana-Farber）。</span></p>
+<p><span data-crc="porterFinding">189 例原发肿瘤做单核 RNA 测序（54 例早发、135 例常规年龄发病），170 例用伪 bulk 成功判定 CMS。早发样本表面上更常为 CMS2，但纳入肿瘤侧别和其他协变量后，连续年龄与 CMS2 的关联不再显著。外部 712 例 MSS 的多重免疫荧光验证的是细胞构成差异，不是 CMS 分型本身。年龄、表达亚型都不能据此推断单例的 DNA 分型。</span></p>
+<p><strong><span data-crc="zhaoTitle">2022 · Zhao et al. · ChangKang 历史补录</span></strong> <a href="#ref7">[7]</a></p>
+<p><span data-crc="zhaoTeam">共同通讯：Feng Wang、Rui-Hua Xu（中山大学肿瘤防治中心）；Qi Zhao、Feng Wang、Yan-Xing Chen、Shifu Chen 等贡献。</span></p>
+<p><span data-crc="zhaoFinding">1,015 例中国结直肠癌外显子组用于提出 HM、CIN-HR、CIN-LR、GS 分类。图 5e 的 CMS 比较来自另一组 TCGA-CRC：在既定 CIN 组中用 10q11.21 扩增作代理划组，所得 CIN-HR 的 CMS4 占比最高。不是 1,015 人的配对 RNA 验证，也不表示 CIN-HR 等于 CMS4；不新增分型连线。</span></p></section>
 <section class="note"><h2><span data-crc="refs">原始研究</span></h2><ol class="refs">
 <li id="ref1">Guinney et al. <i>Nature Medicine</i> (2015). <a href="https://doi.org/10.1038/nm.3967">10.1038/nm.3967</a></li>
 <li id="ref2">The Cancer Genome Atlas Network. <i>Nature</i> (2012). <a href="https://doi.org/10.1038/nature11252">10.1038/nature11252</a></li>
 <li id="ref3">Liu et al. <i>Cancer Cell</i> (2018), Fig. 2 and Fig. S2. <a href="https://doi.org/10.1016/j.ccell.2018.03.010">10.1016/j.ccell.2018.03.010</a></li>
 <li id="ref4">Cornish et al. <i>Nature</i> (2024). <a href="https://doi.org/10.1038/s41586-024-07747-9">10.1038/s41586-024-07747-9</a></li>
 <li id="ref5">Joanito et al. <i>Nature Genetics</i> (2022). <a href="https://doi.org/10.1038/s41588-022-01100-4">10.1038/s41588-022-01100-4</a></li>
+<li id="ref6">Porter et al. <i>Nature Medicine</i> (2026), Fig. 1 and Extended Data Fig. 2. <a href="https://doi.org/10.1038/s41591-026-04721-y">10.1038/s41591-026-04721-y</a></li>
+<li id="ref7">Zhao et al. <i>Nature Communications</i> (2022), Fig. 5. <a href="https://doi.org/10.1038/s41467-022-30062-8">10.1038/s41467-022-30062-8</a></li>
 </ol></section></main><footer><span data-crc="footer">用于科研阅读；不替代标准 MSI/MMR 检测或临床指南。</span></footer>
 <script src="../assets/language.js?v=1"></script>
-<script src="en.js?v=1"></script>
+<script src="en.js?v=20261123"></script>
 <script>
 'use strict';
 const pageLocale = window.ResearchTrackLanguage;
@@ -93,3 +102,4 @@ function restoreSelection(){
 }
 restoreSelection();
 </script></body></html>
+

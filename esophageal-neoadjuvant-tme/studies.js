@@ -211,6 +211,29 @@ window.ESOPHAGEAL_STUDIES = [
   },
   {
     "year": 2026,
+    "date": "2026-01-20",
+    "author": "Dijian Shen、Rui Li、Yong She、Xuefei Liu、Yuanyang Huang、Yongling Ji（共同一作）",
+    "team": "浙江省肿瘤医院与中山大学肿瘤防治中心合作；临床试验在浙江省肿瘤医院完成。通讯：Xuan Li、Qi Zhao、Ming Chen（中山大学肿瘤防治中心），Qixun Chen（浙江省肿瘤医院）。",
+    "journal": "Advanced Science",
+    "doi": "10.1002/advs.202515207",
+    "title": "PRDM1⁺ Malignant Cells Mediate an Immunosuppressive Landscape and Resistance to Neoadjuvant Chemoradiotherapy and Immunotherapy in Esophageal Squamous Cell Carcinoma",
+    "histology": "鳞癌",
+    "category": "配对动态",
+    "design": "单中心单臂Ⅱ期 NCT03940001：信迪利单抗联合新辅助同步放化疗，22 例进入全分析集、17 例手术。9 例贡献 26 份单细胞 RNA/TCR 测序标本，包括 9 份治疗前活检、8 份术后肿瘤及 9 份非肿瘤组织；治疗前后肿瘤配对 8 例。此前手术结局报告（DOI 10.21037/jgo-24-295）中的同试验手术组与这 17 例重合。",
+    "finding": "未达主要病理缓解者术后富集 PRDM1⁺ 恶性上皮细胞。多重免疫染色与功能实验支持其与调节性 T 细胞及 TREM2⁺ 脂质相关巨噬细胞的免疫抑制互作，分别涉及 IL1A–IL1R2 与 CD47–SIRPA。",
+    "limit": "单中心单臂，单细胞亚组仅 9 例、8 对。术后富集属于病理应答关联，不能作为治疗前预测指标；体外及组织支持不等于证明靶向策略改善患者结局。",
+    "cells": [
+      "恶性上皮细胞",
+      "调节性T细胞",
+      "巨噬细胞"
+    ],
+    "shortAuthor": "Dijian Shen",
+    "shortJournal": "Adv Sci",
+    "summary": "未达主要病理缓解者术后富集 PRDM1⁺ 癌细胞，伴 Treg 与 TREM2⁺ 巨噬细胞信号。",
+    "sysucc": true
+  },
+  {
+    "year": 2026,
     "date": "2026-05-07",
     "author": "Yan Zheng 等",
     "team": "郑州大学附属肿瘤医院 / 河南省肿瘤医院 · Wenqun Xing",
@@ -296,6 +319,26 @@ window.ESOPHAGEAL_STUDIES = [
     "shortAuthor": "Si Li",
     "shortJournal": "Gut",
     "summary": "PD-L1 阻断应答关联 T／B 细胞及巨噬细胞协同程序。"
+  },
+  {
+    "year": 2026,
+    "date": "2026-11-03",
+    "author": "Yuchen Zhang、Pingjing Zhou、Hongyu Zhang（共同一作）",
+    "team": "复旦大学附属中山医院胸外科与上海市第五人民医院／复旦大学合作；通讯：Jun Yin、Jie Gu、Di Ge（复旦中山医院），Ronghua Liu（上海市第五人民医院／复旦大学）。",
+    "journal": "Cell Death & Disease",
+    "doi": "10.1038/s41419-026-09371-z",
+    "title": "Targeting UDP-GlcNAc–mediated O-GlcNAcylation in regulatory T cells attenuates immunotherapy resistance in esophageal squamous cell carcinoma",
+    "histology": "鳞癌",
+    "category": "转化标志物",
+    "design": "含抗 PD-1 的新辅助免疫化疗后，22 例手术肿瘤用于非靶向代谢组，20 例用于多重免疫荧光，另一个 20 例队列含治疗前活检及术后组织，用于染色、流式与质谱。另整合两套公开单细胞数据的 17 例、24 份样本，并开展功能实验。",
+    "finding": "未达主要病理缓解者术后肿瘤中 UDP-GlcNAc 较高，Treg 的 O-GlcNAc 糖基化增强；功能实验支持 EIF3H–LTF 轴增强 Treg 铁死亡抵抗，有助于维持免疫抑制。",
+    "limit": "主体代谢组来自术后整块组织，不能直接确定代谢物的细胞来源。公开单细胞为再分析，不能算作新队列；患者样本的关联和临床前干预不证明治疗前预测或靶向治疗获益。",
+    "cells": [
+      "调节性T细胞"
+    ],
+    "shortAuthor": "Yuchen Zhang",
+    "shortJournal": "Cell Death Dis",
+    "summary": "不应答者富集 UDP-GlcNAc；功能实验支持 Treg 铁死亡抵抗。"
   },
   {
     "year": 2026,

@@ -7,7 +7,7 @@ main{width:min(1480px,calc(100% - 36px))}.subnav{display:flex;align-items:center
 .hero .dek{max-width:56em}.controls{margin-top:18px}.controls select{max-width:100%;min-height:42px}.controls input,.controls button,dialog button{min-height:42px}.controls button{background:#edf4f7}.era button{font:inherit;line-height:1.35}.era button .summary-text{margin-top:4px;font-size:.87rem}.era button .card-tag{margin-top:5px;font-weight:700;color:var(--tone)}.era p.caption{min-height:2.65em;margin-bottom:9px}.throughline{border-left:4px solid #ad7a29;line-height:1.48}.legend{margin-top:9px;gap:8px 15px}.legend span{white-space:nowrap}.results{font-size:.88rem;margin-bottom:8px;color:#526b78}.state{grid-column:1/-1}.notes dd,dialog dd{white-space:pre-wrap;overflow-wrap:anywhere}dialog h2{font-size:1.3rem;overflow-wrap:anywhere}dialog button{flex:none}dialog a{overflow-wrap:anywhere}.scroll:focus-visible{outline:2px solid #147d73;outline-offset:2px}
 @media(max-width:630px){.era p.caption{min-height:0}.hero h1{font-size:2rem}.controls label{max-width:100%}.controls input{width:100%}.controls button{min-height:42px}.notes{padding:13px 14px}dialog{padding:14px}}
 </style></head>
-<body><header><nav class="subnav" id="subnav"><a id="home-link" href="../index.html">Research Track · 文献图谱</a><a id="overview-link" href="overview.svg?v=2">查看横向文献图</a></nav></header>
+<body><header><nav class="subnav" id="subnav"><a id="home-link" href="../index.html">Research Track · 文献图谱</a><a id="overview-link" href="overview.svg?v=3">查看横向文献图</a></nav></header>
 <main>
 <section class="hero"><span class="eyebrow">研究时间轴 / 新辅助治疗</span><h1>食管癌新辅助治疗<br>免疫微环境转化研究进展</h1><p class="dek">按首次在线年份整理：食管鳞癌与腺癌、不同时点与检测平台的原始研究。点击文献查看课题组、主要发现、局限和原始来源。</p></section>
 <p class="teamline throughline"><b>跨研究主线：从免疫状态到临床证据</b><br>治疗前的应答关联 → 治疗前后细胞及空间变化 → 临床试验验证。配对研究更适合观察同患者变化；随机试验回答方案疗效，不直接验证免疫机制。</p>
@@ -24,7 +24,7 @@ main{width:min(1480px,calc(100% - 36px))}.subnav{display:flex;align-items:center
 <section class="notes"><h2>跨研究比较与证据边界</h2><p><b>比较前先对齐：</b>组织学（鳞癌或腺癌）、方案、取样时点、应答定义和检测平台。不同设计得出的结果不能直接互换。</p><p><b>区分三个结论：</b>病理应答不等同长期生存；细胞比例变化不等同空间位置变化；应答关联不等同因果机制或已验证的临床预测指标。</p></section>
 <noscript><p>请启用 JavaScript，以使用时间轴、筛选和文献详情。</p></noscript></main><footer>整理自公开研究，用于科研阅读，不替代临床指南。</footer>
 <dialog id="dialog" aria-labelledby="paper-title"><div class="dialog-top"><h2 id="paper-title"></h2><button id="close" type="button" autofocus>关闭</button></div><div id="paper-body"></div></dialog>
-<script src="../assets/language.js?v=1"></script><script src="studies.js?v=2"></script><script src="studies.en.js?v=1"></script><script>
+<script src="../assets/language.js?v=1"></script><script src="studies.js?v=3"></script><script src="studies.en.js?v=2"></script><script>
 'use strict';
 const $=id=>document.getElementById(id);
 const language=window.ResearchTrackLanguage;
@@ -63,7 +63,7 @@ if(en){
  const notes=document.querySelectorAll('.notes p');
  notes[0].replaceChildren(make('b','Check comparability: '),'Align histology, treatment, sampling time, response definitions, and assays. Studies with different designs are not interchangeable.');
  notes[1].replaceChildren(make('b','Keep three distinctions in mind: '),'Pathological response is not long-term survival. Cell proportions are not spatial positions. Associations with response do not establish causality or validate a predictive biomarker.');
- setAttr('#overview-link','href','overview.en.svg?v=1');
+ setAttr('#overview-link','href','overview.en.svg?v=2');
  setAttr('#search','placeholder','Author, institution, title, DOI…');
  setAttr('#filters','aria-label','Study filters');
  setAttr('#legend','aria-label','Evidence type legend');

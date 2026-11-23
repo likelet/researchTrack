@@ -58,5 +58,17 @@ window.ONC_AI_STUDIES = [
     team:['通讯 Rongshan Yu、Junjun He、Yuanfeng Ji；厦门大学、上海交通大学、斯坦福大学等合作','Rongshan Yu, Junjun He and Yuanfeng Ji; collaborators from Xiamen University, Shanghai Jiao Tong University, Stanford and other institutions'],
     summary:['继 2025 年 CVPR 会议版后，扩展版支持整张切片问答与报告生成；5 个队列涵盖 31 个癌种，评测包括 8,836 道封闭题、129 道开放题和 3,149 份切片报告。','Following the CVPR 2025 version, the expanded SlideChat handled whole-slide questions and report generation. Evaluation spanned five cohorts, 31 cancer types, 8,836 closed-ended questions, 129 open-ended questions and 3,149 reports.'],
     limit:['评测是回顾性任务基准，不等于常规临床阅片的安全性、周转改善或诊断结局；生成报告需病理医师核验。','These were retrospective benchmarks, not proof of safety, faster turnaround or improved diagnosis in practice. Generated reports need pathologist review.']
+  },
+  {
+    date:'2026-10-29', title:'An agentic AI system enhances clinical detection of immune-related adverse events in a multi-phase validation study', author:'Jack Gallifant et al.', venue:'Nature Cancer', doi:'10.1038/s43018-026-01264-6', kind:'Clinical evaluation', key:true,
+    team:['Danielle S. Bitterman 通讯；布里格姆妇女医院、Dana-Farber 癌症研究所等合作','Corresponding author Danielle S. Bitterman; Brigham and Women’s Hospital, Dana-Farber Cancer Institute and collaborators'],
+    summary:['AEGIS 从病历抽取六类免疫相关不良事件。263 份回顾性测试病历的当前事件检出 F1 为 0.92，严重程度分级 F1 为 0.66；884 份前瞻性静默病历的检出 F1 为 0.72–0.79。17 名研究人员的随机交叉评估中，辅助标注用时减少约 2.71 分钟。','AEGIS extracted six immune-related adverse event types. In 263 held-out retrospective notes, F1 was 0.92 for current-event detection and 0.66 for severity grading. Detection F1 was 0.72–0.79 across 884 prospective silent-deployment notes. A randomized crossover evaluation with 17 research staff estimated 2.71 minutes less per note with assistance.'],
+    limit:['静默部署不影响临床处置；随机交叉试验衡量研究标注，而非不良事件干预或患者获益。严重度仍需人工复核。','Silent deployment did not guide care; the crossover measured research annotation, not adverse-event intervention or patient benefit. Severity grading still needs human verification.']
+  },
+  {
+    date:'2026-11-20', title:'Research through evaluation for large language models in patient-clinician communications', author:'Yuexing Hao et al.', venue:'Scientific Reports', doi:'10.1038/s41598-026-80958-4', kind:'Clinical evaluation', key:false,
+    team:['Yuexing Hao、Wei Liu 共同通讯；Mayo Clinic 放射肿瘤科与 MIT EECS 等合作','Co-corresponding authors Yuexing Hao and Wei Liu; Mayo Clinic Radiation Oncology and MIT EECS, with collaborators'],
+    summary:['对 90 名前列腺癌患者的 158 条咨询，比较临床团队原回复与 GPT-4 草稿（316 份回复）。末轮盲评中，草稿需大改或不可用为 28/158，临床团队回复为 14/158。四个 LLM 评委都更偏好机器人草稿，绝对评分一致性低于临床评委。','The retrospective comparison paired care-team and GPT-4 drafts for 158 inquiries from 90 patients with prostate cancer (316 replies). In final blinded grading, 28 of 158 bot drafts versus 14 of 158 care-team replies needed major editing or were unusable. All four LLM judges favored bot drafts and showed lower absolute agreement than clinicians.'],
+    limit:['首发为 Article in Press。末轮比较为描述性；患者未参与，未分析节省时间或患者结局，不能证明自动发送安全。','First published as an Article in Press. Final comparisons were descriptive; patients were not involved, time savings and patient outcomes were not analyzed, and autonomous sending was not validated.']
   }
 ];

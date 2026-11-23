@@ -842,6 +842,65 @@ window.gastricImmuneEnglish={
           "https://data.mendeley.com/datasets/jwkc5t6r55"
         ]
       ]
+    },
+    "32": {
+      "group": "Affiliated Cancer Hospital of Zhengzhou University / Henan Cancer Hospital · Ning Li (corresponding author)",
+      "short": "Dysfunctional TLS: a peri-TLS FCN1⁺ neutrophil and ATF4-linked epithelial niche",
+      "design": "Locally advanced gastric/GEJ adenocarcinoma; neoadjuvant sintilimab plus SOX or CAPOX. In-house Visium: 15 patients (6 untreated, 3 major pathologic responders, 6 non-major responders); partially matched single-cell atlas: 21 patients; separate pretreatment NanoString cohort: 10 patients. Also used multiplex imaging, in vitro assays and external data.",
+      "findings": [
+        "In nonresponders, B cells in a specific TLS subtype stalled in a naïve or antigen-presenting state rather than progressing along germinal-center and plasma-cell trajectories.",
+        "Spatial and in vitro evidence linked neighboring FCN1⁺ neutrophils and ATF4-associated tumor epithelium to impaired B-cell maturation and NF-κB activation."
+      ],
+      "limits": "Small spatial discovery cohorts and single-timepoint tissue cannot establish the initiating mechanism in patients. Bulk-cohort stratification was exploratory; the TLS response index did not show added response association after CPS adjustment.",
+      "cells": [
+        [
+          "TLS",
+          "TLS abundance and function can diverge: structures can be present despite impaired B-cell maturation."
+        ],
+        [
+          "B",
+          "B cells in nonresponders stalled in a naïve or antigen-presenting state."
+        ],
+        [
+          "Myeloid",
+          "FCN1⁺ neutrophils localized around dysfunctional TLS and were linked to impaired B-cell maturation."
+        ],
+        [
+          "Epi",
+          "Nearby tumor epithelium showed an ATF4-associated metabolic program."
+        ]
+      ],
+      "data": [
+        [
+          "OMIX020529 (controlled)",
+          "https://ngdc.cncb.ac.cn/omix/view/OMIX020529"
+        ],
+        [
+          "Analysis code",
+          "https://zenodo.org/records/20175936"
+        ]
+      ]
+    },
+    "33": {
+      "group": "Samsung Medical Center / Mass General Brigham Cancer Institute · Jeeyun Lee / Samuel J. Klempner (corresponding authors)",
+      "short": "Advanced gastric cancer: tumor-compartment SPP1 linked to worse treatment outcomes",
+      "design": "The first-line sequential phase II trial NCT04249739 (70 patients) and an independent real-world immunotherapy cohort (137 patients). GeoMx DSP profiled 851 PanCK⁺ tumor and 486 CD45⁺ immune areas across 794 regions.",
+      "findings": [
+        "After chemotherapy but before starting immunotherapy (FU1), tumor-compartment SPP1, CXCL8 and IL1B were lower in patients with durable benefit. Tumor-compartment SPP1 AUC for durable benefit was 0.490 at baseline and 0.622 at FU1.",
+        "In the real-world cohort, higher tumor-compartment SPP1 was associated with poorer overall survival; trial plasma proteomics suggested lower SPP1 with durable benefit."
+      ],
+      "limits": "Compartment-level expression does not identify malignant-cell SPP1 or count SPP1⁺ macrophages. The real-world result corroborates an overall-survival association, not the same response endpoint or immunotherapy-specific benefit. Plasma analysis was exploratory (32 patients; no analyte survived multiplicity correction). The phase II dataset shares the trial framework of An, Wright and Lim, so it is not wholly independent.",
+      "cells": [],
+      "data": [
+        [
+          "PubMed abstract",
+          "https://pubmed.ncbi.nlm.nih.gov/43051942/"
+        ],
+        [
+          "Parent trial NCT04249739",
+          "https://clinicaltrials.gov/study/NCT04249739"
+        ]
+      ]
     }
   },
   "comparisons": {
@@ -860,6 +919,10 @@ window.gastricImmuneEnglish={
         [
           28,
           "In exploratory work from a randomized trial, TLS-associated EC2 correlated with chemoimmunotherapy response; it is not a validated selection marker."
+        ],
+        [
+          32,
+          "Wei: B-cell maturation can stall despite the presence of TLS, alongside a suppressive neutrophil–epithelial niche."
         ]
       ],
       "why": "Within the primary tumor and in the muscularis propria are distinct anatomic levels. Pretreatment tissue and post-treatment resections are not interchangeable. Gao’s LAR also contains aggregates other than TLS.",
@@ -896,6 +959,10 @@ window.gastricImmuneEnglish={
         [
           19,
           "APOE⁺CD74⁺ boundary TAMs correlated with CD8 dysfunction; Cd74 intervention evidence comes from XELOX experiments."
+        ],
+        [
+          33,
+          "Yoo linked tumor-compartment SPP1 to outcomes; compartment data cannot assign the signal to one cell type."
         ]
       ],
       "why": "C1Q⁺, SPP1⁺ and APOE⁺CD74⁺ denote different states in different tissues and treatment settings. Total macrophage abundance does not reconcile them.",
@@ -968,6 +1035,10 @@ window.gastricImmuneEnglish={
         [
           5,
           "Ma’s spatial study partly reused Kumar’s single-cell data."
+        ],
+        [
+          33,
+          "Yoo reused the same registered phase II trial. Its separate real-world cohort corroborates an overall-survival association."
         ]
       ],
       "why": "The number of papers is not the number of independent cohorts. Analyses may also involve different patient subsets.",

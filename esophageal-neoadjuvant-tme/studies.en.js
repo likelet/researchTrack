@@ -126,5 +126,21 @@ window.ESOPHAGEAL_EN = {
     design: "Integrated paired pre/post-treatment scRNA/TCR-seq data from neoadjuvant chemoimmunotherapy, chemoradiotherapy alone, and chemoradiotherapy plus immunotherapy.",
     finding: "Chemoimmunotherapy response was associated with retention of pre-existing CXCL13⁺PD-1⁺ CD8⁺ T cells and enrichment of CXCR4⁺ progenitor-like exhausted T cells. Chemoradiotherapy was associated with contraction of pre-existing exhausted clones and enrichment of PD-1⁻ NIBAN1⁺ cytotoxic effector T cells in responders.",
     limit: "Cross-regimen molecular integration was not a randomized head-to-head comparison. Cell-state differences are not evidence of one regimen’s superiority or a basis for treatment selection."
+  },
+  "10.1002/advs.202515207": {
+    "author": "Dijian Shen, Rui Li, Yong She, Xuefei Liu, Yuanyang Huang, and Yongling Ji (co-first authors)",
+    "summary": "PRDM1⁺ tumor cells rose after nICRT in non-MPR, alongside Tregs and TREM2⁺ TAMs.",
+    "team": "Zhejiang Cancer Hospital and Sun Yat-sen University Cancer Center collaborated; the clinical trial was conducted at Zhejiang Cancer Hospital. Corresponding authors: Xuan Li, Qi Zhao, and Ming Chen (Sun Yat-sen University Cancer Center), and Qixun Chen (Zhejiang Cancer Hospital).",
+    "design": "Single-center, single-arm phase II trial NCT03940001 of neoadjuvant sintilimab with concurrent chemoradiotherapy (nICRT): 22 in the full analysis set, 17 underwent surgery. Nine patients contributed 26 single-cell RNA/TCR specimens: nine pretreatment biopsies, eight postoperative tumor specimens, and nine non-tumor specimens. Eight patients had paired tumor samples. The earlier surgical outcomes report (DOI 10.21037/jgo-24-295) included the same 17 operated patients from this trial.",
+    "finding": "Post-treatment specimens from patients without a major pathological response (non-MPR) were enriched for PRDM1⁺ malignant epithelial cells. Multiplex staining and functional evidence supported immunosuppressive interactions with regulatory T cells via IL1A–IL1R2 and TREM2⁺ lipid-associated tumor-associated macrophages (TAMs) via CD47–SIRPA.",
+    "limit": "The trial was single-center and single-arm, with nine patients and eight paired tumors in the single-cell subset. Post-treatment enrichment does not establish a pretreatment predictor; tissue and in vitro evidence do not establish benefit in patients from targeting the pathway."
+  },
+  "10.1038/s41419-026-09371-z": {
+    "author": "Yuchen Zhang, Pingjing Zhou, and Hongyu Zhang (co-first authors)",
+    "summary": "UDP-GlcNAc marked nonresponse; models support Treg ferroptosis resistance.",
+    "team": "Thoracic Surgery, Zhongshan Hospital, Fudan University, with Shanghai Fifth People’s Hospital and Fudan University. Corresponding authors: Jun Yin, Jie Gu, and Di Ge (Zhongshan Hospital), and Ronghua Liu (Shanghai Fifth People’s Hospital/Fudan University).",
+    "design": "After neoadjuvant chemoimmunotherapy containing anti-PD-1, 22 resection tumors were profiled by untargeted metabolomics and a 20-patient cohort by multiplex immunofluorescence. A third cohort of 20 with pretreatment biopsies and resections was used for staining, flow cytometry, and mass spectrometry. The investigators also integrated two published single-cell datasets (17 patients, 24 specimens) and performed functional experiments.",
+    "finding": "Post-treatment tumors without a major pathological response had more UDP-GlcNAc, and their regulatory T cells showed higher O-GlcNAcylation. Functional experiments supported a role for the EIF3H–LTF pathway in Treg ferroptosis resistance and maintenance of immunosuppression.",
+    "limit": "Bulk post-treatment metabolomics cannot determine which cell type made the metabolite. The public single-cell data were reanalyzed rather than newly profiled. Neither the patient associations nor the preclinical interventions establish pretreatment prediction or therapeutic benefit."
   }
 };

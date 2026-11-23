@@ -24,3 +24,28 @@ window.ATLAS_EN = Object.fromEntries([
 ['p17','David Church and Viktor H. Koelzer; TransSCOT / S:CORT / imCMS collaborations','2,816 classifiable; 1,877 in the fully adjusted model','Adjusted recurrence-free interval HR for imCMS4 versus imCMS2 was 1.84 (95% CI 1.44–2.36), supporting prognostic value.','Concordance with paired RNA CMS was not formally tested. No differential benefit by duration or regimen was found. Duration was randomized, but choice of CAPOX versus FOLFOX was not.']
 ].map(([id,team,n,find,limit,dateNote])=>[id,{team,n,find,limit,dateNote}]));
 for(const [id,metric] of Object.entries({p18:'External AUC 0.92',p22:'cT4bM0: 75/268 dMMR',p9:'6 CRC patients',p19:'External AUC 0.865',p21:'Imaging–pathology discordance',p20:'Clinical complete response 20.0% vs 44.1%',p14:'509 external'}))window.ATLAS_EN[id].metric=metric;
+
+Object.assign(window.ATLAS_EN, {
+  "p23": {
+    "team": "Co-corresponding authors: Sen Yang (Ant Healthcare), Wenjun Deng (Massachusetts General Hospital / Harvard), Xiang Pan (Jiangnan University), and Shanye Yin (Albert Einstein / Montefiore).",
+    "metric": "Cross-platform comparison with measured proteins",
+    "n": "6 patients in the internal colon G4X test; HEMIT and CODEX provided measured cross-platform comparisons. Downstream TCGA-COAD MSI and OS tasks used 183 patients.",
+    "find": "Hist2Prot inferred single-cell spatial protein maps from H&E and compared them with measured markers in CRC. TCGA-COAD MSI and OS were evaluated separately by fivefold cross-validation.",
+    "limit": "Virtual proteins are not measurements. No RNA CMS, first recurrence or differential treatment benefit was validated. The TCGA analysis was within cohort; the clinical treatment cohort is not public."
+  },
+  "p24": {
+    "team": "Co-corresponding authors: Haijun Deng (Nanfang Hospital), Weicai Huang and Jingsong Chen (First Affiliated Hospital of Guangzhou Medical University), with Yunnan Cancer Hospital and other collaborators.",
+    "metric": "External AUC 0.826",
+    "n": "2,065 total; 385 for HRD classification (210 training, 90 internal, 85 external).",
+    "find": "Deep radiomics on portal venous-phase preoperative CT predicted the study-specific HRD label: external AUC 0.826 (95% CI 0.729–0.906).",
+    "limit": "Each patient received one reference assay: functional RAD51 or NGS (pathogenic BRCA1/2 or genomic scar score ≥30). Label equivalence was not established. The external classification set had no survival follow-up. The retrospective treatment interaction does not guide chemotherapy.",
+    "dateNote": "Citable accepted article; final typeset version pending."
+  },
+  "p26": {
+    "team": "Faisal Mahmood, corresponding; co-supervised with Long Phi Le. Mass General Brigham, Harvard Medical School, Broad Institute and collaborators.",
+    "metric": "Within-cohort CPTAC-COAD splits",
+    "n": "CPTAC-COAD: the authors’ published downstream task configuration lists 94 case IDs.",
+    "find": "THREADS aligns tissue morphology with molecular data. Fig. 3 in the published paper reports TP53 mutation inference within CPTAC-COAD.",
+    "limit": "Patient-level evaluation within one cohort. CPTAC was separate from pretraining, not an independent multicenter downstream validation. TP53 mutation is not p53 IHC."
+  }
+});
